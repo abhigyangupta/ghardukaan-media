@@ -26,9 +26,11 @@ def captions(t):
     body, tags = t['caption'].strip(), t['hashtags'].strip()
     title = t['yt_title'].strip()
     if '#Shorts' not in title: title = (title + ' | GharDukaan #Shorts')
+    # Tagged links let the site credit sign-ups to the channel and the daily topic.
+    link = lambda src, med: f"https://www.ghardukaan.shop/?utm_source={src}&utm_medium={med}&utm_campaign=daily_{t['id']}"
     return {'instagram': f'{body}\n\n{CTA}\n👉 Link in bio: www.ghardukaan.shop\n\n{tags}',
-            'facebook': f'{body}\n\n{CTA}\n👉 www.ghardukaan.shop\n\n{tags}',
-            'youtube': f'{body}\n\n{CTA}\n👉 https://www.ghardukaan.shop\n\n{tags} #Shorts',
+            'facebook': f'{body}\n\n{CTA}\n👉 {link("facebook", "reel")}\n\n{tags}',
+            'youtube': f'{body}\n\n{CTA}\n👉 {link("youtube", "shorts")}\n\n{tags} #Shorts',
             'youtube_title': title[:100]}
 
 def build(t, date, preview=False):
