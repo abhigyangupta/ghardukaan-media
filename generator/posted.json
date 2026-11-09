@@ -43,5 +43,41 @@
    "facebook": "6af1c3c5a95224132452d9a1",
    "status": "scheduled"
   }
+ },
+ {
+  "id": "business-ideas",
+  "date": "2026-11-11",
+  "posts": {
+   "instagram": "6af1c723b8fb1e3cacb75164",
+   "facebook": "6af1c72455ccb8ee465f0950",
+   "status": "scheduled"
+  }
+ },
+ {
+  "id": "product-description",
+  "date": "2026-11-12",
+  "posts": {
+   "instagram": "6af1c7259a6192a0dc8d97e9",
+   "facebook": "6af1c7264ed9d7a0d396ca52",
+   "status": "scheduled"
+  }
+ },
+ {
+  "id": "qr-standee",
+  "date": "2026-11-13",
+  "posts": {
+   "instagram": "6af1c726b8fb1e3cacb75289",
+   "facebook": "6af1c7279a6192a0dc8d9c23",
+   "status": "scheduled"
+  }
+ },
+ {
+  "id": "pricing-formula",
+  "date": "2026-11-14",
+  "posts": {
+   "instagram": "6af1c728b8fb1e3cacb752d9",
+   "facebook": "6af1c7294ed9d7a0d396caf5",
+   "status": "scheduled"
+  }
  }
 ]
