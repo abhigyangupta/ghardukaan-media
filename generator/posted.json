@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "id": "how-it-works",
+  "date": "2026-11-16",
+  "posts": {
+   "instagram": "6af1c0b5520b42ec9165c029",
+   "facebook": "6af1c0b5a95224132451b615",
+   "status": "scheduled"
+  }
+ },
+ {
+  "id": "whatsapp-status",
+  "date": "2026-11-17",
+  "posts": {
+   "instagram": "6af1c0b7fff3dca70d1cd0ef",
+   "facebook": "6af1c0b89c89efdcd5bc0738",
+   "status": "scheduled"
+  }
+ },
+ {
+  "id": "fast-reply",
+  "date": "2026-11-18",
+  "posts": {
+   "instagram": "6af1c0b9520b42ec9165c121",
+   "facebook": "6af1c0b9520b42ec9165c151",
+   "status": "scheduled"
+  }
+ },
+ {
+  "id": "link-in-bio",
+  "date": "2026-11-19",
+  "posts": {
+   "instagram": "6af1c0bafff3dca70d1cd1e6",
+   "facebook": "6af1c0bba95224132451b7db",
+   "status": "scheduled"
+  }
+ }
+]
