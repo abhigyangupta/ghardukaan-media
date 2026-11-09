@@ -1,874 +1,874 @@
 [
- {
-  "id": "teen-galtiyan",
-  "theme": "light",
-  "yt_title": "Ghar se business? Yeh 3 galtiyan mat karna",
-  "caption": "Ghar se business karte ho? Yeh 3 galtiyan aapke orders kam kar deti hain. 👇\n\n1. Customer se baar-baar 'price kya hai?' poochwana\n2. Dhundhli, andhere wali photos\n3. Reply mein ghanton ki der\n\nSave karo aur us dost ko bhejo jo ghar se bechta hai. 🧡",
-  "hashtags": "#GharDukaan #HomeBusiness #SmallBusinessIndia #Homepreneur #WhatsAppBusiness #ApniDukaanApnePhoneSe",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "घर से बिज़नेस करते हैं? ये तीन गलतियाँ आपके ऑर्डर कम कर देती हैं।",
-    "cap": "Ghar se business karte ho? Yeh 3 galtiyan orders kam kar deti hain.",
-    "big": [
-     "Ghar se business?",
-     "3 galtiyan",
-     "jo orders kam karti hain"
+  {
+    "id": "how-it-works",
+    "theme": "night",
+    "yt_title": "GharDukaan kaise kaam karta hai — 3 steps mein online dukaan",
+    "caption": "Online dukaan banana ab bachon ka khel. 📱\n\n1. Photo khicho\n2. Details bharo aur review ke liye bhejo\n3. Approve hote hi link share karo\n\nOrders seedha WhatsApp pe, payment seedha UPI mein. 0% commission.",
+    "hashtags": "#GharDukaan #OnlineDukaan #HomeBusiness #WhatsAppBusiness #SmallBusinessIndia #ApniDukaanApnePhoneSe",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "अपने फ़ोन से ऑनलाइन दुकान, सिर्फ़ तीन स्टेप में।",
+        "cap": "Apne phone se online dukaan, sirf 3 steps mein.",
+        "big": [
+          "Online dukaan",
+          "3 steps mein",
+          "phone se"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "फ़ोटो खींचिए, डिटेल भरिए और रिव्यू के लिए भेजिए, और अप्रूव होते ही लिंक शेयर कीजिए।",
+        "cap": "Photo khicho, details bharo aur review ke liye bhejo, approve hote hi link share karo.",
+        "head": [
+          "Bas",
+          "3 steps"
+        ],
+        "items": [
+          [
+            "1",
+            "Photo khicho",
+            "Phone camera se"
+          ],
+          [
+            "2",
+            "Details bharo",
+            "Review ke liye bhejo"
+          ],
+          [
+            "3",
+            "Link share karo",
+            "Approve hote hi"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "ग्राहक व्हाट्सऐप पर ऑर्डर भेजता है, और पैसे सीधे आपके यू-पी-आई में।",
+        "cap": "Customer WhatsApp pe order bhejta hai, aur paise seedha aapke UPI mein.",
+        "head": [
+          "Order aur payment",
+          "seedha aapko"
+        ],
+        "items": [
+          [
+            "1",
+            "Order WhatsApp pe"
+          ],
+          [
+            "₹",
+            "Payment seedha UPI mein"
+          ],
+          [
+            "0%",
+            "Koi commission nahi"
+          ]
+        ]
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "पहली, हर ग्राहक को अलग से दाम बताना। दूसरी, धुंधली फ़ोटो। तीसरी, जवाब देने में देर।",
-    "cap": "1. Har customer ko alag se daam batana 2. Dhundhli photo 3. Reply mein der",
-    "head": [
-     "Yeh 3 galtiyan",
-     "aaj hi band karo"
-    ],
-    "items": [
-     [
-      "1",
-      "Har baar daam batana",
-      "Customer ko list chahiye"
-     ],
-     [
-      "2",
-      "Dhundhli photos",
-      "Andhere mein khinchi hui"
-     ],
-     [
-      "3",
-      "Late reply",
-      "Ghanton baad jawab"
-     ]
+  },
+  {
+    "id": "whatsapp-status",
+    "theme": "light",
+    "yt_title": "WhatsApp Status se orders kaise laayein",
+    "caption": "WhatsApp Status sabse free marketing hai. 📲\n\n1. Roz ek product ki photo lagao\n2. Saath mein daam likho\n3. Aur apni dukaan ka link daalo\n\nJo dekhega, seedha link se order karega. Kal se shuru karo!",
+    "hashtags": "#WhatsAppStatus #WhatsAppMarketing #GharDukaan #HomeBusiness #SmallBusinessIndia #ApniDukaanApnePhoneSe",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "आपके व्हाट्सऐप स्टेटस को रोज़ सैकड़ों लोग देखते हैं। क्या वो आपके ग्राहक बन रहे हैं?",
+        "cap": "Aapka WhatsApp Status roz bahut log dekhte hain. Kya woh customer ban rahe hain?",
+        "big": [
+          "Aapka Status",
+          "free dukaan",
+          "ban sakta hai"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "रोज़ एक प्रोडक्ट की फ़ोटो लगाइए, साथ में दाम लिखिए, और दुकान का लिंक जोड़िए।",
+        "cap": "Roz ek product ki photo lagao, saath mein daam likho, aur dukaan ka link jodo.",
+        "head": [
+          "Roz ka",
+          "Status formula"
+        ],
+        "items": [
+          [
+            "1",
+            "Ek product ki photo"
+          ],
+          [
+            "2",
+            "Saath mein daam"
+          ],
+          [
+            "3",
+            "Dukaan ka link"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "जो देखेगा, वो लिंक खोलेगा, और ऑर्डर सीधा आपके व्हाट्सऐप पर आएगा।",
+        "cap": "Jo dekhega, link kholega, aur order seedha aapke WhatsApp pe aayega.",
+        "head": [
+          "Status se",
+          "seedha order"
+        ],
+        "items": [
+          [
+            "1",
+            "Customer status dekhta hai"
+          ],
+          [
+            "2",
+            "Link kholta hai"
+          ],
+          [
+            "3",
+            "WhatsApp pe order bhejta hai"
+          ]
+        ]
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "इसका हल है एक दुकान का लिंक, जिसमें फ़ोटो, दाम और ऑर्डर बटन सब एक जगह हो।",
-    "cap": "Hal: ek dukaan ka link, jisme photo, daam aur order button sab ek jagah.",
-    "head": [
-     "Hal simple hai:",
-     "ek dukaan link"
-    ],
-    "items": [
-     [
-      "1",
-      "Saari photos ek jagah"
-     ],
-     [
-      "2",
-      "Har product ka daam"
-     ],
-     [
-      "3",
-      "Order on WhatsApp button"
-     ]
+  },
+  {
+    "id": "fast-reply",
+    "theme": "night",
+    "yt_title": "Customer ko jaldi reply karne ka simple tarika",
+    "caption": "Late reply = lost order. ⏱️\n\n1. WhatsApp Business mein quick replies bana lo\n2. Daam aur delivery ka message pehle se ready rakho\n3. Dukaan link se customer khud sab dekh le\n\nJaldi jawab, zyada orders!",
+    "hashtags": "#CustomerService #WhatsAppBusiness #GharDukaan #HomeBusiness #SmallBusinessIndia #Homepreneur",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "ग्राहक ने मैसेज किया, आपने दो घंटे बाद जवाब दिया। ऑर्डर तब तक कहीं और चला गया।",
+        "cap": "Customer ne message kiya, aapne 2 ghante baad reply kiya. Order kahin aur chala gaya.",
+        "big": [
+          "Late reply",
+          "=",
+          "lost order"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "व्हाट्सऐप बिज़नेस में क्विक रिप्लाई बनाइए, और दाम और डिलीवरी का मैसेज पहले से तैयार रखिए।",
+        "cap": "WhatsApp Business mein quick replies banao, daam aur delivery ka message ready rakho.",
+        "head": [
+          "Jaldi reply ke",
+          "2 tareeke"
+        ],
+        "items": [
+          [
+            "1",
+            "Quick replies",
+            "WhatsApp Business mein"
+          ],
+          [
+            "2",
+            "Ready message",
+            "Daam aur delivery ka"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "और अपनी दुकान का लिंक भेजिए, ताकि ग्राहक फ़ोटो और दाम खुद देख ले।",
+        "cap": "Aur dukaan ka link bhejo, taaki customer photo aur daam khud dekh le.",
+        "head": [
+          "Sabse tez",
+          "jawab: link"
+        ],
+        "items": [
+          [
+            "1",
+            "Ek link bhejo"
+          ],
+          [
+            "2",
+            "Customer khud dekhe"
+          ],
+          [
+            "3",
+            "Seedha order kare"
+          ]
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "id": "photo-tips",
-  "theme": "night",
-  "yt_title": "Phone se product photo kaise khichein — 3 easy tips",
-  "caption": "Achhi photo = zyada orders. 📸\n\nPhone se product photo ke 3 aasaan tips:\n1. Din ki roshni mein, khidki ke paas\n2. Saada background (safed kapda ya chadar)\n3. Har product ki 3 angle se photo\n\nAgli photo khichne se pehle yeh save kar lo!",
-  "hashtags": "#ProductPhotography #PhonePhotography #GharDukaan #HomeBusiness #HandmadeInIndia #SmallBusinessIndia",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "आपका प्रोडक्ट अच्छा है, पर फ़ोटो धुंधली है? तो ऑर्डर कम आएँगे।",
-    "cap": "Product achha hai, par photo dhundhli? Toh orders kam aayenge.",
-    "big": [
-     "Product achha,",
-     "photo kharab?",
-     "Orders kam!"
+  },
+  {
+    "id": "link-in-bio",
+    "theme": "light",
+    "yt_title": "Instagram bio mein dukaan ka link kyun zaroori hai",
+    "caption": "Instagram pe log poochte hain 'kaise order karein?' 🤔\n\nJawab: bio mein ek link.\n✅ Saare products ek jagah\n✅ Har product ka daam\n✅ Order seedha WhatsApp pe\n\nAaj hi apna bio update karo!",
+    "hashtags": "#InstagramTips #LinkInBio #GharDukaan #HomeBusiness #SmallBusinessIndia #InstagramForBusiness",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "इंस्टाग्राम पर लोग पूछते हैं, ऑर्डर कैसे करें? जवाब है, बायो में एक लिंक।",
+        "cap": "Instagram pe log poochte hain, order kaise karein? Jawab: bio mein ek link.",
+        "big": [
+          "'Order kaise",
+          "karein?'",
+          "Bio mein link do"
+        ]
+      },
+      {
+        "kind": "vs",
+        "vo": "डी-एम में एक-एक को दाम बताने की जगह, एक लिंक दीजिए जिसमें सब कुछ हो।",
+        "cap": "DM mein ek-ek ko daam batane ki jagah, ek link do jisme sab kuch ho.",
+        "head": [
+          "DM mein jawab",
+          "ya ek link?"
+        ],
+        "rows": [
+          [
+            "Har DM mein daam batao",
+            "Ek link mein saare daam"
+          ],
+          [
+            "Photos baar-baar bhejo",
+            "Saari photos ek jagah"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "घरदुकान पर आपको मिलता है अपना लिंक, जिसे आप बायो, स्टेटस और पैकेट, हर जगह लगा सकते हैं।",
+        "cap": "GharDukaan pe aapko milta hai apna link: bio, status, packet, har jagah lagao.",
+        "head": [
+          "Ek link,",
+          "har jagah"
+        ],
+        "items": [
+          [
+            "1",
+            "Instagram bio"
+          ],
+          [
+            "2",
+            "WhatsApp status"
+          ],
+          [
+            "3",
+            "Product packet pe"
+          ]
+        ]
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "फ़ोटो दिन की रोशनी में खिड़की के पास खींचिए, फ़्लैश बंद रखिए।",
-    "cap": "Photo din ki roshni mein, khidki ke paas khicho. Flash band rakho.",
-    "head": [
-     "Tip 1:",
-     "sahi roshni"
-    ],
-    "items": [
-     [
-      "1",
-      "Din ki roshni",
-      "Khidki ke paas khade ho"
-     ],
-     [
-      "2",
-      "Flash band",
-      "Flash se rang badal jaata hai"
-     ]
+  },
+  {
+    "id": "commission-maths",
+    "theme": "night",
+    "yt_title": "Commission aapki kamaai kaise kha jaata hai",
+    "caption": "Socho, aapne ek mahine mein ₹10,000 ka maal becha. 🤔\n\nAgar platform 20% commission le, toh ₹2,000 gaye.\nGharDukaan pe commission 0% hai. Customer seedha aapko UPI se pay karta hai.\n\nBas ek flat monthly fee. Poori kamaai aapki.",
+    "hashtags": "#ZeroCommission #GharDukaan #HomeBusiness #SmallBusinessIndia #UPI #ApniDukaanApnePhoneSe",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "मान लीजिए आपने एक महीने में दस हज़ार रुपये का सामान बेचा।",
+        "cap": "Maan lo aapne ek mahine mein ₹10,000 ka maal becha.",
+        "big": [
+          "Mahine ki bikri",
+          "₹10,000",
+          "Kitna aapka?"
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "अगर बीस प्रतिशत कमीशन कटे, तो दो हज़ार रुपये चले गए।",
+        "cap": "Agar 20% commission kate, toh ₹2,000 chale gaye.",
+        "head": [
+          "20% commission",
+          "matlab"
+        ],
+        "stat": "-₹2,000",
+        "sub": "har mahine",
+        "note": "Udaharan ke liye 20% maana gaya hai"
+      },
+      {
+        "kind": "stat",
+        "vo": "घरदुकान पर बिक्री पर कोई कमीशन नहीं। ग्राहक सीधे आपको यू-पी-आई से पैसे देता है।",
+        "cap": "GharDukaan pe bikri pe 0% commission. Customer seedha aapko UPI se pay karta hai.",
+        "head": [
+          "GharDukaan pe",
+          "poore ₹10,000 aapke"
+        ],
+        "stat": "0%",
+        "sub": "sales commission",
+        "note": "Bas ek flat monthly fee"
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "पीछे सादा कपड़ा रखिए, और हर प्रोडक्ट की तीन एंगल से फ़ोटो लीजिए।",
-    "cap": "Peeche saada kapda rakho, aur har product ki 3 angle se photo lo.",
-    "head": [
-     "Tip 2 aur 3:",
-     "background aur angle"
-    ],
-    "items": [
-     [
-      "1",
-      "Saada background",
-      "Safed kapda ya chadar"
-     ],
-     [
-      "3",
-      "Teen angle",
-      "Saamne, side, close-up"
-     ]
+  },
+  {
+    "id": "teen-galtiyan",
+    "theme": "light",
+    "yt_title": "Ghar se business? Yeh 3 galtiyan mat karna",
+    "caption": "Ghar se business karte ho? Yeh 3 galtiyan aapke orders kam kar deti hain. 👇\n\n1. Customer se baar-baar 'price kya hai?' poochwana\n2. Dhundhli, andhere wali photos\n3. Reply mein ghanton ki der\n\nSave karo aur us dost ko bhejo jo ghar se bechta hai. 🧡",
+    "hashtags": "#GharDukaan #HomeBusiness #SmallBusinessIndia #Homepreneur #WhatsAppBusiness #ApniDukaanApnePhoneSe",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "घर से बिज़नेस करते हैं? ये तीन गलतियाँ आपके ऑर्डर कम कर देती हैं।",
+        "cap": "Ghar se business karte ho? Yeh 3 galtiyan orders kam kar deti hain.",
+        "big": [
+          "Ghar se business?",
+          "3 galtiyan",
+          "jo orders kam karti hain"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "पहली, हर ग्राहक को अलग से दाम बताना। दूसरी, धुंधली फ़ोटो। तीसरी, जवाब देने में देर।",
+        "cap": "1. Har customer ko alag se daam batana 2. Dhundhli photo 3. Reply mein der",
+        "head": [
+          "Yeh 3 galtiyan",
+          "aaj hi band karo"
+        ],
+        "items": [
+          [
+            "1",
+            "Har baar daam batana",
+            "Customer ko list chahiye"
+          ],
+          [
+            "2",
+            "Dhundhli photos",
+            "Andhere mein khinchi hui"
+          ],
+          [
+            "3",
+            "Late reply",
+            "Ghanton baad jawab"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "इसका हल है एक दुकान का लिंक, जिसमें फ़ोटो, दाम और ऑर्डर बटन सब एक जगह हो।",
+        "cap": "Hal: ek dukaan ka link, jisme photo, daam aur order button sab ek jagah.",
+        "head": [
+          "Hal simple hai:",
+          "ek dukaan link"
+        ],
+        "items": [
+          [
+            "1",
+            "Saari photos ek jagah"
+          ],
+          [
+            "2",
+            "Har product ka daam"
+          ],
+          [
+            "3",
+            "Order on WhatsApp button"
+          ]
+        ]
+      }
     ]
-   },
-   {
-    "kind": "stat",
-    "vo": "फिर ये फ़ोटो अपनी दुकान में डालिए, और ग्राहक को वही दिखेगा जो आप दिखाना चाहते हैं।",
-    "cap": "Phir yeh photos apni dukaan mein daalo. Customer wahi dekhega jo aap dikhana chahte ho.",
-    "head": [
-     "Photo kheencho,",
-     "dukaan mein daalo"
-    ],
-    "stat": "3 tips",
-    "sub": "Achhi photo, zyada orders",
-    "note": "Seedha phone camera se product upload karo"
-   }
-  ]
- },
- {
-  "id": "whatsapp-status",
-  "theme": "light",
-  "yt_title": "WhatsApp Status se orders kaise laayein",
-  "caption": "WhatsApp Status sabse free marketing hai. 📲\n\n1. Roz ek product ki photo lagao\n2. Saath mein daam likho\n3. Aur apni dukaan ka link daalo\n\nJo dekhega, seedha link se order karega. Kal se shuru karo!",
-  "hashtags": "#WhatsAppStatus #WhatsAppMarketing #GharDukaan #HomeBusiness #SmallBusinessIndia #ApniDukaanApnePhoneSe",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "आपके व्हाट्सऐप स्टेटस को रोज़ सैकड़ों लोग देखते हैं। क्या वो आपके ग्राहक बन रहे हैं?",
-    "cap": "Aapka WhatsApp Status roz bahut log dekhte hain. Kya woh customer ban rahe hain?",
-    "big": [
-     "Aapka Status",
-     "free dukaan",
-     "ban sakta hai"
+  },
+  {
+    "id": "photo-tips",
+    "theme": "night",
+    "yt_title": "Phone se product photo kaise khichein — 3 easy tips",
+    "caption": "Achhi photo = zyada orders. 📸\n\nPhone se product photo ke 3 aasaan tips:\n1. Din ki roshni mein, khidki ke paas\n2. Saada background (safed kapda ya chadar)\n3. Har product ki 3 angle se photo\n\nAgli photo khichne se pehle yeh save kar lo!",
+    "hashtags": "#ProductPhotography #PhonePhotography #GharDukaan #HomeBusiness #HandmadeInIndia #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "आपका प्रोडक्ट अच्छा है, पर फ़ोटो धुंधली है? तो ऑर्डर कम आएँगे।",
+        "cap": "Product achha hai, par photo dhundhli? Toh orders kam aayenge.",
+        "big": [
+          "Product achha,",
+          "photo kharab?",
+          "Orders kam!"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "फ़ोटो दिन की रोशनी में खिड़की के पास खींचिए, फ़्लैश बंद रखिए।",
+        "cap": "Photo din ki roshni mein, khidki ke paas khicho. Flash band rakho.",
+        "head": [
+          "Tip 1:",
+          "sahi roshni"
+        ],
+        "items": [
+          [
+            "1",
+            "Din ki roshni",
+            "Khidki ke paas khade ho"
+          ],
+          [
+            "2",
+            "Flash band",
+            "Flash se rang badal jaata hai"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "पीछे सादा कपड़ा रखिए, और हर प्रोडक्ट की तीन एंगल से फ़ोटो लीजिए।",
+        "cap": "Peeche saada kapda rakho, aur har product ki 3 angle se photo lo.",
+        "head": [
+          "Tip 2 aur 3:",
+          "background aur angle"
+        ],
+        "items": [
+          [
+            "1",
+            "Saada background",
+            "Safed kapda ya chadar"
+          ],
+          [
+            "3",
+            "Teen angle",
+            "Saamne, side, close-up"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "फिर ये फ़ोटो अपनी दुकान में डालिए, और ग्राहक को वही दिखेगा जो आप दिखाना चाहते हैं।",
+        "cap": "Phir yeh photos apni dukaan mein daalo. Customer wahi dekhega jo aap dikhana chahte ho.",
+        "head": [
+          "Photo kheencho,",
+          "dukaan mein daalo"
+        ],
+        "stat": "3 tips",
+        "sub": "Achhi photo, zyada orders",
+        "note": "Seedha phone camera se product upload karo"
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "रोज़ एक प्रोडक्ट की फ़ोटो लगाइए, साथ में दाम लिखिए, और दुकान का लिंक जोड़िए।",
-    "cap": "Roz ek product ki photo lagao, saath mein daam likho, aur dukaan ka link jodo.",
-    "head": [
-     "Roz ka",
-     "Status formula"
-    ],
-    "items": [
-     [
-      "1",
-      "Ek product ki photo"
-     ],
-     [
-      "2",
-      "Saath mein daam"
-     ],
-     [
-      "3",
-      "Dukaan ka link"
-     ]
+  },
+  {
+    "id": "product-description",
+    "theme": "light",
+    "yt_title": "Product description mein yeh 4 cheezein zaroor likhein",
+    "caption": "Customer wahi poochta hai jo aapne likha nahi. ✍️\n\nHar product ke saath yeh 4 cheezein likho:\n1. Size ya quantity\n2. Material\n3. Daam\n4. Kitne din mein delivery\n\nKam sawaal, zyada orders!",
+    "hashtags": "#ProductDescription #GharDukaan #HomeBusiness #SmallBusinessIndia #Homepreneur #SellingTips",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "ग्राहक वही सवाल पूछता है, जो आपने लिखा ही नहीं।",
+        "cap": "Customer wahi sawaal poochta hai jo aapne likha hi nahi.",
+        "big": [
+          "Har product pe",
+          "yeh 4 cheezein",
+          "likhna zaroori"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "साइज़ या मात्रा, मटीरियल, दाम, और डिलीवरी कितने दिन में होगी।",
+        "cap": "Size ya quantity, material, daam, aur delivery kitne din mein.",
+        "head": [
+          "Description",
+          "checklist"
+        ],
+        "items": [
+          [
+            "1",
+            "Size ya quantity",
+            "Jaise 500 g, 6 inch"
+          ],
+          [
+            "2",
+            "Material",
+            "Cotton, mitti, wax"
+          ],
+          [
+            "3",
+            "Daam",
+            "Saaf likha hua"
+          ],
+          [
+            "4",
+            "Delivery time",
+            "Kitne din mein"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "इससे सवाल कम होंगे, भरोसा बढ़ेगा, और ग्राहक सीधे ऑर्डर करेगा।",
+        "cap": "Isse sawaal kam honge, bharosa badhega, aur customer seedha order karega.",
+        "head": [
+          "Fayda?",
+          "seedha order"
+        ],
+        "items": [
+          [
+            "1",
+            "Kam sawaal"
+          ],
+          [
+            "2",
+            "Zyada bharosa"
+          ],
+          [
+            "3",
+            "Seedha WhatsApp order"
+          ]
+        ]
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "जो देखेगा, वो लिंक खोलेगा, और ऑर्डर सीधा आपके व्हाट्सऐप पर आएगा।",
-    "cap": "Jo dekhega, link kholega, aur order seedha aapke WhatsApp pe aayega.",
-    "head": [
-     "Status se",
-     "seedha order"
-    ],
-    "items": [
-     [
-      "1",
-      "Customer status dekhta hai"
-     ],
-     [
-      "2",
-      "Link kholta hai"
-     ],
-     [
-      "3",
-      "WhatsApp pe order bhejta hai"
-     ]
+  },
+  {
+    "id": "wedding-season",
+    "theme": "night",
+    "yt_title": "Shaadi season mein kya bechein — home sellers ke liye ideas",
+    "caption": "Shaadi ka season aa gaya! 💍\n\nHome sellers ke liye best products:\n• Gift hampers\n• Mehendi cones\n• Handmade jewellery\n• Shagun envelopes\n• Mithai aur dry fruit boxes\n\nAbhi se stock aur photos ready karo!",
+    "hashtags": "#WeddingSeason #ShaadiSeason #GharDukaan #HomeBusiness #HandmadeInIndia #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "दिवाली के बाद अब शादी का सीज़न। ग्राहक तैयार हैं, क्या आपकी दुकान तैयार है?",
+        "cap": "Diwali ke baad ab shaadi ka season. Customer ready hain, kya aapki dukaan ready hai?",
+        "big": [
+          "Shaadi season",
+          "aa gaya!",
+          "Dukaan ready?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "गिफ़्ट हैम्पर, मेहंदी कोन, हाथ से बनी ज्वेलरी, और शगुन लिफ़ाफ़े। इनकी माँग सबसे ज़्यादा रहती है।",
+        "cap": "Gift hamper, mehendi cone, handmade jewellery, shagun lifafe: inki maang sabse zyada.",
+        "head": [
+          "Inki maang",
+          "sabse zyada"
+        ],
+        "items": [
+          [
+            "1",
+            "Gift hampers"
+          ],
+          [
+            "2",
+            "Mehendi cones"
+          ],
+          [
+            "3",
+            "Handmade jewellery"
+          ],
+          [
+            "4",
+            "Shagun envelopes"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "अभी से स्टॉक बनाइए, अच्छी फ़ोटो खींचिए, और अपना लिंक हर जगह शेयर कीजिए।",
+        "cap": "Abhi se stock banao, achhi photos lo, aur apna link har jagah share karo.",
+        "head": [
+          "Abhi se",
+          "taiyari"
+        ],
+        "items": [
+          [
+            "1",
+            "Stock ready"
+          ],
+          [
+            "2",
+            "Nayi photos"
+          ],
+          [
+            "3",
+            "Link share karo"
+          ]
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "id": "pricing-formula",
-  "theme": "night",
-  "yt_title": "Handmade product ka price kaise tay karein",
-  "caption": "Price kam rakhne se business nahi chalta. 💰\n\nSimple formula:\nSaaman ka kharcha + aapki mehnat ka samay + packing + munafa = sahi daam\n\nApni mehnat ko free mat do. Save karo! 🧡",
-  "hashtags": "#PricingTips #HandmadeBusiness #GharDukaan #HomeBusiness #Homepreneur #SmallBusinessIndia",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "सबसे बड़ी गलती: अपनी मेहनत का दाम ही नहीं जोड़ना।",
-    "cap": "Sabse badi galti: apni mehnat ka daam hi nahi jodna.",
-    "big": [
-     "Price kam rakha,",
-     "munafa gaayab?",
-     "Yeh formula dekho"
+  },
+  {
+    "id": "qr-standee",
+    "theme": "light",
+    "yt_title": "Counter pe QR code rakho, online orders lo",
+    "caption": "Dukaan ya stall hai? Counter pe ek QR rakho. 📱\n\nCustomer scan kare, aapki poori dukaan phone pe khul jaaye. Agli baar ghar baithe order kare.\n\nDukaan Pro mein printable QR standee kit milti hai.",
+    "hashtags": "#QRCode #GharDukaan #LocalBusiness #SmallBusinessIndia #HomeBusiness #ExhibitionStall",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "मेले, स्टॉल या दुकान पर ग्राहक आता है, और फिर चला जाता है। उसे दोबारा कैसे लाएँ?",
+        "cap": "Mela, stall ya dukaan pe customer aata hai, phir chala jaata hai. Wapas kaise laayein?",
+        "big": [
+          "Stall ka customer",
+          "wapas kaise",
+          "laayein?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "काउंटर पर एक क्यू-आर रखिए। ग्राहक स्कैन करे, और आपकी पूरी दुकान फ़ोन पर खुल जाए।",
+        "cap": "Counter pe ek QR rakho. Customer scan kare, poori dukaan phone pe khul jaaye.",
+        "head": [
+          "Counter pe",
+          "ek QR code"
+        ],
+        "items": [
+          [
+            "1",
+            "QR scan karo"
+          ],
+          [
+            "2",
+            "Poori dukaan phone pe"
+          ],
+          [
+            "3",
+            "Ghar baithe order"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "दुकान प्रो में आपको प्रिंट करने लायक क्यू-आर स्टैंडी किट मिलती है।",
+        "cap": "Dukaan Pro mein printable QR standee kit milti hai.",
+        "head": [
+          "Dukaan Pro mein",
+          "QR standee kit"
+        ],
+        "stat": "QR",
+        "sub": "Print karo, counter pe rakho",
+        "note": "Pro plan mein shaamil"
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "सामान का खर्चा, आपकी मेहनत का समय, पैकिंग, और फिर अपना मुनाफ़ा। चारों जोड़िए।",
-    "cap": "Saaman ka kharcha + mehnat ka samay + packing + munafa. Chaaron jodo.",
-    "head": [
-     "Sahi daam ka",
-     "formula"
-    ],
-    "items": [
-     [
-      "1",
-      "Saaman ka kharcha"
-     ],
-     [
-      "2",
-      "Aapki mehnat ka samay"
-     ],
-     [
-      "3",
-      "Packing aur delivery"
-     ],
-     [
-      "4",
-      "Aapka munafa"
-     ]
+  },
+  {
+    "id": "pricing-formula",
+    "theme": "night",
+    "yt_title": "Handmade product ka price kaise tay karein",
+    "caption": "Price kam rakhne se business nahi chalta. 💰\n\nSimple formula:\nSaaman ka kharcha + aapki mehnat ka samay + packing + munafa = sahi daam\n\nApni mehnat ko free mat do. Save karo! 🧡",
+    "hashtags": "#PricingTips #HandmadeBusiness #GharDukaan #HomeBusiness #Homepreneur #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "सबसे बड़ी गलती: अपनी मेहनत का दाम ही नहीं जोड़ना।",
+        "cap": "Sabse badi galti: apni mehnat ka daam hi nahi jodna.",
+        "big": [
+          "Price kam rakha,",
+          "munafa gaayab?",
+          "Yeh formula dekho"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "सामान का खर्चा, आपकी मेहनत का समय, पैकिंग, और फिर अपना मुनाफ़ा। चारों जोड़िए।",
+        "cap": "Saaman ka kharcha + mehnat ka samay + packing + munafa. Chaaron jodo.",
+        "head": [
+          "Sahi daam ka",
+          "formula"
+        ],
+        "items": [
+          [
+            "1",
+            "Saaman ka kharcha"
+          ],
+          [
+            "2",
+            "Aapki mehnat ka samay"
+          ],
+          [
+            "3",
+            "Packing aur delivery"
+          ],
+          [
+            "4",
+            "Aapka munafa"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "और अगर बिक्री पर कोई कमीशन नहीं कटता, तो पूरा मुनाफ़ा आपका।",
+        "cap": "Aur agar bikri pe koi commission nahi katta, toh poora munafa aapka.",
+        "head": [
+          "Aur commission?",
+          "Bilkul nahi"
+        ],
+        "stat": "0%",
+        "sub": "GharDukaan sales commission",
+        "note": "Customer seedha aapko UPI se pay karta hai"
+      }
     ]
-   },
-   {
-    "kind": "stat",
-    "vo": "और अगर बिक्री पर कोई कमीशन नहीं कटता, तो पूरा मुनाफ़ा आपका।",
-    "cap": "Aur agar bikri pe koi commission nahi katta, toh poora munafa aapka.",
-    "head": [
-     "Aur commission?",
-     "Bilkul nahi"
-    ],
-    "stat": "0%",
-    "sub": "GharDukaan sales commission",
-    "note": "Customer seedha aapko UPI se pay karta hai"
-   }
-  ]
- },
- {
-  "id": "link-in-bio",
-  "theme": "light",
-  "yt_title": "Instagram bio mein dukaan ka link kyun zaroori hai",
-  "caption": "Instagram pe log poochte hain 'kaise order karein?' 🤔\n\nJawab: bio mein ek link.\n✅ Saare products ek jagah\n✅ Har product ka daam\n✅ Order seedha WhatsApp pe\n\nAaj hi apna bio update karo!",
-  "hashtags": "#InstagramTips #LinkInBio #GharDukaan #HomeBusiness #SmallBusinessIndia #InstagramForBusiness",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "इंस्टाग्राम पर लोग पूछते हैं, ऑर्डर कैसे करें? जवाब है, बायो में एक लिंक।",
-    "cap": "Instagram pe log poochte hain, order kaise karein? Jawab: bio mein ek link.",
-    "big": [
-     "'Order kaise",
-     "karein?'",
-     "Bio mein link do"
+  },
+  {
+    "id": "business-ideas",
+    "theme": "light",
+    "yt_title": "Ghar se shuru karne ke 5 aasaan business ideas",
+    "caption": "Ghar se kya bech sakte ho? 🏠\n\n5 aasaan ideas:\n1. Achaar aur papad\n2. Candles aur diye\n3. Crochet aur knitting\n4. Bakery items\n5. Handmade jewellery\n\nKaunsa idea aapka hai? Comment karo! 👇",
+    "hashtags": "#BusinessIdeas #HomeBusinessIdeas #GharDukaan #Homepreneur #WomenEntrepreneurs #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "घर से क्या बेच सकते हैं? ये रहे पाँच आसान आइडिया।",
+        "cap": "Ghar se kya bech sakte ho? Yeh rahe 5 aasaan ideas.",
+        "big": [
+          "Ghar se",
+          "5 business ideas",
+          "aaj se shuru"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "अचार और पापड़, कैंडल और दीये, क्रोशिया का काम।",
+        "cap": "Achaar aur papad, candles aur diye, crochet ka kaam.",
+        "head": [
+          "Ideas",
+          "1 se 3"
+        ],
+        "items": [
+          [
+            "1",
+            "Achaar aur papad"
+          ],
+          [
+            "2",
+            "Candles aur diye"
+          ],
+          [
+            "3",
+            "Crochet aur knitting"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "बेकरी का सामान, और हाथ से बनी ज्वेलरी। कौन-सा आइडिया आपका है?",
+        "cap": "Bakery items, aur handmade jewellery. Kaunsa idea aapka hai?",
+        "head": [
+          "Ideas",
+          "4 aur 5"
+        ],
+        "items": [
+          [
+            "4",
+            "Bakery items",
+            "Cake, cookies, ladoo"
+          ],
+          [
+            "5",
+            "Handmade jewellery",
+            "Earrings, bracelets"
+          ]
+        ]
+      }
     ]
-   },
-   {
-    "kind": "vs",
-    "vo": "डी-एम में एक-एक को दाम बताने की जगह, एक लिंक दीजिए जिसमें सब कुछ हो।",
-    "cap": "DM mein ek-ek ko daam batane ki jagah, ek link do jisme sab kuch ho.",
-    "head": [
-     "DM mein jawab",
-     "ya ek link?"
-    ],
-    "rows": [
-     [
-      "Har DM mein daam batao",
-      "Ek link mein saare daam"
-     ],
-     [
-      "Photos baar-baar bhejo",
-      "Saari photos ek jagah"
-     ]
+  },
+  {
+    "id": "repeat-customers",
+    "theme": "night",
+    "yt_title": "Ek customer ko baar baar kaise laayein",
+    "caption": "Naya customer laana mushkil hai. Purane ko wapas laana aasaan. 🙏\n\n1. Delivery ke baad thank-you message\n2. Product ki photo ya feedback maango\n3. Naya stock aaye toh pehle unhe batao\n\nRepeat customer hi asli kamaai hai. 🧡",
+    "hashtags": "#CustomerLoyalty #GharDukaan #HomeBusiness #SmallBusinessIndia #WhatsAppBusiness #Homepreneur",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "नया ग्राहक लाना मुश्किल है, पर पुराने को वापस लाना आसान।",
+        "cap": "Naya customer laana mushkil, purane ko wapas laana aasaan.",
+        "big": [
+          "Ek customer,",
+          "baar baar",
+          "kaise?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "डिलीवरी के बाद धन्यवाद भेजिए, फ़ीडबैक माँगिए, और नया स्टॉक आए तो सबसे पहले उन्हें बताइए।",
+        "cap": "Delivery ke baad thank-you bhejo, feedback maango, naya stock pehle unhe batao.",
+        "head": [
+          "3 aasaan",
+          "kadam"
+        ],
+        "items": [
+          [
+            "1",
+            "Thank-you message",
+            "Delivery ke turant baad"
+          ],
+          [
+            "2",
+            "Feedback maango",
+            "Ya product ki photo"
+          ],
+          [
+            "3",
+            "Naya stock pehle unhe",
+            "Dukaan ka link bhejo"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "और क्योंकि ऑर्डर आपके व्हाट्सऐप पर आता है, ग्राहक का नंबर हमेशा आपके पास रहता है।",
+        "cap": "Order aapke WhatsApp pe aata hai, toh customer ka number hamesha aapke paas.",
+        "head": [
+          "Customer aapka,",
+          "number aapka"
+        ],
+        "stat": "Direct",
+        "sub": "Customer se seedha rishta",
+        "note": "Asli number, koi masking nahi"
+      }
     ]
-   },
-   {
-    "kind": "list",
-    "vo": "घरदुकान पर आपको मिलता है अपना लिंक, जिसे आप बायो, स्टेटस और पैकेट, हर जगह लगा सकते हैं।",
-    "cap": "GharDukaan pe aapko milta hai apna link: bio, status, packet, har jagah lagao.",
-    "head": [
-     "Ek link,",
-     "har jagah"
-    ],
-    "items": [
-     [
-      "1",
-      "Instagram bio"
-     ],
-     [
-      "2",
-      "WhatsApp status"
-     ],
-     [
-      "3",
-      "Product packet pe"
-     ]
+  },
+  {
+    "id": "ai-listing",
+    "theme": "light",
+    "yt_title": "Bol ke product add karo — Hindi mein AI listing",
+    "caption": "Type karna mushkil lagta hai? Bol ke product add karo! 🎙️\n\nDukaan Premium mein:\n• Photo se AI product listing\n• Hindi, Hinglish ya English mein bol ke product add karo\n• AI se description\n\nDukaan Premium ₹199/month.",
+    "hashtags": "#AIForBusiness #VoiceToProduct #GharDukaan #HomeBusiness #SmallBusinessIndia #HindiAI",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "लंबा डिस्क्रिप्शन टाइप करना मुश्किल लगता है? अब बोलकर प्रोडक्ट जोड़िए।",
+        "cap": "Lamba description type karna mushkil? Ab bol ke product jodo.",
+        "big": [
+          "Type mat karo,",
+          "bol ke",
+          "product jodo"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "दुकान प्रीमियम में फ़ोटो से प्रोडक्ट लिस्टिंग, और हिंदी, हिंग्लिश या इंग्लिश में बोलकर प्रोडक्ट जोड़ने की सुविधा है।",
+        "cap": "Dukaan Premium: photo se product listing, aur Hindi, Hinglish ya English mein bol ke product jodo.",
+        "head": [
+          "Dukaan Premium",
+          "AI tools"
+        ],
+        "items": [
+          [
+            "1",
+            "Photo se listing",
+            "AI product details bharta hai"
+          ],
+          [
+            "2",
+            "Bol ke product jodo",
+            "Hindi, Hinglish, English"
+          ],
+          [
+            "3",
+            "AI description",
+            "SEO aur marketing ke saath"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "दुकान प्रीमियम, एक सौ निन्यानवे रुपये महीना।",
+        "cap": "Dukaan Premium: ₹199 per month.",
+        "head": [
+          "Dukaan Premium",
+          "AI ke saath"
+        ],
+        "stat": "₹199",
+        "sub": "per month",
+        "note": "Pro ke saare features, unlimited categories aur AI tools"
+      }
     ]
-   }
-  ]
- },
- {
-  "id": "commission-maths",
-  "theme": "night",
-  "yt_title": "Commission aapki kamaai kaise kha jaata hai",
-  "caption": "Socho, aapne ek mahine mein ₹10,000 ka maal becha. 🤔\n\nAgar platform 20% commission le, toh ₹2,000 gaye.\nGharDukaan pe commission 0% hai. Customer seedha aapko UPI se pay karta hai.\n\nBas ek flat monthly fee. Poori kamaai aapki.",
-  "hashtags": "#ZeroCommission #GharDukaan #HomeBusiness #SmallBusinessIndia #UPI #ApniDukaanApnePhoneSe",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "मान लीजिए आपने एक महीने में दस हज़ार रुपये का सामान बेचा।",
-    "cap": "Maan lo aapne ek mahine mein ₹10,000 ka maal becha.",
-    "big": [
-     "Mahine ki bikri",
-     "₹10,000",
-     "Kitna aapka?"
-    ]
-   },
-   {
-    "kind": "stat",
-    "vo": "अगर बीस प्रतिशत कमीशन कटे, तो दो हज़ार रुपये चले गए।",
-    "cap": "Agar 20% commission kate, toh ₹2,000 chale gaye.",
-    "head": [
-     "20% commission",
-     "matlab"
-    ],
-    "stat": "-₹2,000",
-    "sub": "har mahine",
-    "note": "Udaharan ke liye 20% maana gaya hai"
-   },
-   {
-    "kind": "stat",
-    "vo": "घरदुकान पर बिक्री पर कोई कमीशन नहीं। ग्राहक सीधे आपको यू-पी-आई से पैसे देता है।",
-    "cap": "GharDukaan pe bikri pe 0% commission. Customer seedha aapko UPI se pay karta hai.",
-    "head": [
-     "GharDukaan pe",
-     "poore ₹10,000 aapke"
-    ],
-    "stat": "0%",
-    "sub": "sales commission",
-    "note": "Bas ek flat monthly fee"
-   }
-  ]
- },
- {
-  "id": "product-description",
-  "theme": "light",
-  "yt_title": "Product description mein yeh 4 cheezein zaroor likhein",
-  "caption": "Customer wahi poochta hai jo aapne likha nahi. ✍️\n\nHar product ke saath yeh 4 cheezein likho:\n1. Size ya quantity\n2. Material\n3. Daam\n4. Kitne din mein delivery\n\nKam sawaal, zyada orders!",
-  "hashtags": "#ProductDescription #GharDukaan #HomeBusiness #SmallBusinessIndia #Homepreneur #SellingTips",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "ग्राहक वही सवाल पूछता है, जो आपने लिखा ही नहीं।",
-    "cap": "Customer wahi sawaal poochta hai jo aapne likha hi nahi.",
-    "big": [
-     "Har product pe",
-     "yeh 4 cheezein",
-     "likhna zaroori"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "साइज़ या मात्रा, मटीरियल, दाम, और डिलीवरी कितने दिन में होगी।",
-    "cap": "Size ya quantity, material, daam, aur delivery kitne din mein.",
-    "head": [
-     "Description",
-     "checklist"
-    ],
-    "items": [
-     [
-      "1",
-      "Size ya quantity",
-      "Jaise 500 g, 6 inch"
-     ],
-     [
-      "2",
-      "Material",
-      "Cotton, mitti, wax"
-     ],
-     [
-      "3",
-      "Daam",
-      "Saaf likha hua"
-     ],
-     [
-      "4",
-      "Delivery time",
-      "Kitne din mein"
-     ]
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "इससे सवाल कम होंगे, भरोसा बढ़ेगा, और ग्राहक सीधे ऑर्डर करेगा।",
-    "cap": "Isse sawaal kam honge, bharosa badhega, aur customer seedha order karega.",
-    "head": [
-     "Fayda?",
-     "seedha order"
-    ],
-    "items": [
-     [
-      "1",
-      "Kam sawaal"
-     ],
-     [
-      "2",
-      "Zyada bharosa"
-     ],
-     [
-      "3",
-      "Seedha WhatsApp order"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "id": "repeat-customers",
-  "theme": "night",
-  "yt_title": "Ek customer ko baar baar kaise laayein",
-  "caption": "Naya customer laana mushkil hai. Purane ko wapas laana aasaan. 🙏\n\n1. Delivery ke baad thank-you message\n2. Product ki photo ya feedback maango\n3. Naya stock aaye toh pehle unhe batao\n\nRepeat customer hi asli kamaai hai. 🧡",
-  "hashtags": "#CustomerLoyalty #GharDukaan #HomeBusiness #SmallBusinessIndia #WhatsAppBusiness #Homepreneur",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "नया ग्राहक लाना मुश्किल है, पर पुराने को वापस लाना आसान।",
-    "cap": "Naya customer laana mushkil, purane ko wapas laana aasaan.",
-    "big": [
-     "Ek customer,",
-     "baar baar",
-     "kaise?"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "डिलीवरी के बाद धन्यवाद भेजिए, फ़ीडबैक माँगिए, और नया स्टॉक आए तो सबसे पहले उन्हें बताइए।",
-    "cap": "Delivery ke baad thank-you bhejo, feedback maango, naya stock pehle unhe batao.",
-    "head": [
-     "3 aasaan",
-     "kadam"
-    ],
-    "items": [
-     [
-      "1",
-      "Thank-you message",
-      "Delivery ke turant baad"
-     ],
-     [
-      "2",
-      "Feedback maango",
-      "Ya product ki photo"
-     ],
-     [
-      "3",
-      "Naya stock pehle unhe",
-      "Dukaan ka link bhejo"
-     ]
-    ]
-   },
-   {
-    "kind": "stat",
-    "vo": "और क्योंकि ऑर्डर आपके व्हाट्सऐप पर आता है, ग्राहक का नंबर हमेशा आपके पास रहता है।",
-    "cap": "Order aapke WhatsApp pe aata hai, toh customer ka number hamesha aapke paas.",
-    "head": [
-     "Customer aapka,",
-     "number aapka"
-    ],
-    "stat": "Direct",
-    "sub": "Customer se seedha rishta",
-    "note": "Asli number, koi masking nahi"
-   }
-  ]
- },
- {
-  "id": "qr-standee",
-  "theme": "light",
-  "yt_title": "Counter pe QR code rakho, online orders lo",
-  "caption": "Dukaan ya stall hai? Counter pe ek QR rakho. 📱\n\nCustomer scan kare, aapki poori dukaan phone pe khul jaaye. Agli baar ghar baithe order kare.\n\nDukaan Pro mein printable QR standee kit milti hai.",
-  "hashtags": "#QRCode #GharDukaan #LocalBusiness #SmallBusinessIndia #HomeBusiness #ExhibitionStall",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "मेले, स्टॉल या दुकान पर ग्राहक आता है, और फिर चला जाता है। उसे दोबारा कैसे लाएँ?",
-    "cap": "Mela, stall ya dukaan pe customer aata hai, phir chala jaata hai. Wapas kaise laayein?",
-    "big": [
-     "Stall ka customer",
-     "wapas kaise",
-     "laayein?"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "काउंटर पर एक क्यू-आर रखिए। ग्राहक स्कैन करे, और आपकी पूरी दुकान फ़ोन पर खुल जाए।",
-    "cap": "Counter pe ek QR rakho. Customer scan kare, poori dukaan phone pe khul jaaye.",
-    "head": [
-     "Counter pe",
-     "ek QR code"
-    ],
-    "items": [
-     [
-      "1",
-      "QR scan karo"
-     ],
-     [
-      "2",
-      "Poori dukaan phone pe"
-     ],
-     [
-      "3",
-      "Ghar baithe order"
-     ]
-    ]
-   },
-   {
-    "kind": "stat",
-    "vo": "दुकान प्रो में आपको प्रिंट करने लायक क्यू-आर स्टैंडी किट मिलती है।",
-    "cap": "Dukaan Pro mein printable QR standee kit milti hai.",
-    "head": [
-     "Dukaan Pro mein",
-     "QR standee kit"
-    ],
-    "stat": "QR",
-    "sub": "Print karo, counter pe rakho",
-    "note": "Pro plan mein shaamil"
-   }
-  ]
- },
- {
-  "id": "wedding-season",
-  "theme": "night",
-  "yt_title": "Shaadi season mein kya bechein — home sellers ke liye ideas",
-  "caption": "Shaadi ka season aa gaya! 💍\n\nHome sellers ke liye best products:\n• Gift hampers\n• Mehendi cones\n• Handmade jewellery\n• Shagun envelopes\n• Mithai aur dry fruit boxes\n\nAbhi se stock aur photos ready karo!",
-  "hashtags": "#WeddingSeason #ShaadiSeason #GharDukaan #HomeBusiness #HandmadeInIndia #SmallBusinessIndia",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "दिवाली के बाद अब शादी का सीज़न। ग्राहक तैयार हैं, क्या आपकी दुकान तैयार है?",
-    "cap": "Diwali ke baad ab shaadi ka season. Customer ready hain, kya aapki dukaan ready hai?",
-    "big": [
-     "Shaadi season",
-     "aa gaya!",
-     "Dukaan ready?"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "गिफ़्ट हैम्पर, मेहंदी कोन, हाथ से बनी ज्वेलरी, और शगुन लिफ़ाफ़े। इनकी माँग सबसे ज़्यादा रहती है।",
-    "cap": "Gift hamper, mehendi cone, handmade jewellery, shagun lifafe: inki maang sabse zyada.",
-    "head": [
-     "Inki maang",
-     "sabse zyada"
-    ],
-    "items": [
-     [
-      "1",
-      "Gift hampers"
-     ],
-     [
-      "2",
-      "Mehendi cones"
-     ],
-     [
-      "3",
-      "Handmade jewellery"
-     ],
-     [
-      "4",
-      "Shagun envelopes"
-     ]
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "अभी से स्टॉक बनाइए, अच्छी फ़ोटो खींचिए, और अपना लिंक हर जगह शेयर कीजिए।",
-    "cap": "Abhi se stock banao, achhi photos lo, aur apna link har jagah share karo.",
-    "head": [
-     "Abhi se",
-     "taiyari"
-    ],
-    "items": [
-     [
-      "1",
-      "Stock ready"
-     ],
-     [
-      "2",
-      "Nayi photos"
-     ],
-     [
-      "3",
-      "Link share karo"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "id": "business-ideas",
-  "theme": "light",
-  "yt_title": "Ghar se shuru karne ke 5 aasaan business ideas",
-  "caption": "Ghar se kya bech sakte ho? 🏠\n\n5 aasaan ideas:\n1. Achaar aur papad\n2. Candles aur diye\n3. Crochet aur knitting\n4. Bakery items\n5. Handmade jewellery\n\nKaunsa idea aapka hai? Comment karo! 👇",
-  "hashtags": "#BusinessIdeas #HomeBusinessIdeas #GharDukaan #Homepreneur #WomenEntrepreneurs #SmallBusinessIndia",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "घर से क्या बेच सकते हैं? ये रहे पाँच आसान आइडिया।",
-    "cap": "Ghar se kya bech sakte ho? Yeh rahe 5 aasaan ideas.",
-    "big": [
-     "Ghar se",
-     "5 business ideas",
-     "aaj se shuru"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "अचार और पापड़, कैंडल और दीये, क्रोशिया का काम।",
-    "cap": "Achaar aur papad, candles aur diye, crochet ka kaam.",
-    "head": [
-     "Ideas",
-     "1 se 3"
-    ],
-    "items": [
-     [
-      "1",
-      "Achaar aur papad"
-     ],
-     [
-      "2",
-      "Candles aur diye"
-     ],
-     [
-      "3",
-      "Crochet aur knitting"
-     ]
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "बेकरी का सामान, और हाथ से बनी ज्वेलरी। कौन-सा आइडिया आपका है?",
-    "cap": "Bakery items, aur handmade jewellery. Kaunsa idea aapka hai?",
-    "head": [
-     "Ideas",
-     "4 aur 5"
-    ],
-    "items": [
-     [
-      "4",
-      "Bakery items",
-      "Cake, cookies, ladoo"
-     ],
-     [
-      "5",
-      "Handmade jewellery",
-      "Earrings, bracelets"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "id": "how-it-works",
-  "theme": "night",
-  "yt_title": "GharDukaan kaise kaam karta hai — 3 steps mein online dukaan",
-  "caption": "Online dukaan banana ab bachon ka khel. 📱\n\n1. Photo khicho\n2. Details bharo aur review ke liye bhejo\n3. Approve hote hi link share karo\n\nOrders seedha WhatsApp pe, payment seedha UPI mein. 0% commission.",
-  "hashtags": "#GharDukaan #OnlineDukaan #HomeBusiness #WhatsAppBusiness #SmallBusinessIndia #ApniDukaanApnePhoneSe",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "अपने फ़ोन से ऑनलाइन दुकान, सिर्फ़ तीन स्टेप में।",
-    "cap": "Apne phone se online dukaan, sirf 3 steps mein.",
-    "big": [
-     "Online dukaan",
-     "3 steps mein",
-     "phone se"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "फ़ोटो खींचिए, डिटेल भरिए और रिव्यू के लिए भेजिए, और अप्रूव होते ही लिंक शेयर कीजिए।",
-    "cap": "Photo khicho, details bharo aur review ke liye bhejo, approve hote hi link share karo.",
-    "head": [
-     "Bas",
-     "3 steps"
-    ],
-    "items": [
-     [
-      "1",
-      "Photo khicho",
-      "Phone camera se"
-     ],
-     [
-      "2",
-      "Details bharo",
-      "Review ke liye bhejo"
-     ],
-     [
-      "3",
-      "Link share karo",
-      "Approve hote hi"
-     ]
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "ग्राहक व्हाट्सऐप पर ऑर्डर भेजता है, और पैसे सीधे आपके यू-पी-आई में।",
-    "cap": "Customer WhatsApp pe order bhejta hai, aur paise seedha aapke UPI mein.",
-    "head": [
-     "Order aur payment",
-     "seedha aapko"
-    ],
-    "items": [
-     [
-      "1",
-      "Order WhatsApp pe"
-     ],
-     [
-      "₹",
-      "Payment seedha UPI mein"
-     ],
-     [
-      "0%",
-      "Koi commission nahi"
-     ]
-    ]
-   }
-  ]
- },
- {
-  "id": "ai-listing",
-  "theme": "light",
-  "yt_title": "Bol ke product add karo — Hindi mein AI listing",
-  "caption": "Type karna mushkil lagta hai? Bol ke product add karo! 🎙️\n\nDukaan Premium mein:\n• Photo se AI product listing\n• Hindi, Hinglish ya English mein bol ke product add karo\n• AI se description\n\nDukaan Premium ₹199/month.",
-  "hashtags": "#AIForBusiness #VoiceToProduct #GharDukaan #HomeBusiness #SmallBusinessIndia #HindiAI",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "लंबा डिस्क्रिप्शन टाइप करना मुश्किल लगता है? अब बोलकर प्रोडक्ट जोड़िए।",
-    "cap": "Lamba description type karna mushkil? Ab bol ke product jodo.",
-    "big": [
-     "Type mat karo,",
-     "bol ke",
-     "product jodo"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "दुकान प्रीमियम में फ़ोटो से प्रोडक्ट लिस्टिंग, और हिंदी, हिंग्लिश या इंग्लिश में बोलकर प्रोडक्ट जोड़ने की सुविधा है।",
-    "cap": "Dukaan Premium: photo se product listing, aur Hindi, Hinglish ya English mein bol ke product jodo.",
-    "head": [
-     "Dukaan Premium",
-     "AI tools"
-    ],
-    "items": [
-     [
-      "1",
-      "Photo se listing",
-      "AI product details bharta hai"
-     ],
-     [
-      "2",
-      "Bol ke product jodo",
-      "Hindi, Hinglish, English"
-     ],
-     [
-      "3",
-      "AI description",
-      "SEO aur marketing ke saath"
-     ]
-    ]
-   },
-   {
-    "kind": "stat",
-    "vo": "दुकान प्रीमियम, एक सौ निन्यानवे रुपये महीना।",
-    "cap": "Dukaan Premium: ₹199 per month.",
-    "head": [
-     "Dukaan Premium",
-     "AI ke saath"
-    ],
-    "stat": "₹199",
-    "sub": "per month",
-    "note": "Pro ke saare features, unlimited categories aur AI tools"
-   }
-  ]
- },
- {
-  "id": "fast-reply",
-  "theme": "night",
-  "yt_title": "Customer ko jaldi reply karne ka simple tarika",
-  "caption": "Late reply = lost order. ⏱️\n\n1. WhatsApp Business mein quick replies bana lo\n2. Daam aur delivery ka message pehle se ready rakho\n3. Dukaan link se customer khud sab dekh le\n\nJaldi jawab, zyada orders!",
-  "hashtags": "#CustomerService #WhatsAppBusiness #GharDukaan #HomeBusiness #SmallBusinessIndia #Homepreneur",
-  "scenes": [
-   {
-    "kind": "hook",
-    "vo": "ग्राहक ने मैसेज किया, आपने दो घंटे बाद जवाब दिया। ऑर्डर तब तक कहीं और चला गया।",
-    "cap": "Customer ne message kiya, aapne 2 ghante baad reply kiya. Order kahin aur chala gaya.",
-    "big": [
-     "Late reply",
-     "=",
-     "lost order"
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "व्हाट्सऐप बिज़नेस में क्विक रिप्लाई बनाइए, और दाम और डिलीवरी का मैसेज पहले से तैयार रखिए।",
-    "cap": "WhatsApp Business mein quick replies banao, daam aur delivery ka message ready rakho.",
-    "head": [
-     "Jaldi reply ke",
-     "2 tareeke"
-    ],
-    "items": [
-     [
-      "1",
-      "Quick replies",
-      "WhatsApp Business mein"
-     ],
-     [
-      "2",
-      "Ready message",
-      "Daam aur delivery ka"
-     ]
-    ]
-   },
-   {
-    "kind": "list",
-    "vo": "और अपनी दुकान का लिंक भेजिए, ताकि ग्राहक फ़ोटो और दाम खुद देख ले।",
-    "cap": "Aur dukaan ka link bhejo, taaki customer photo aur daam khud dekh le.",
-    "head": [
-     "Sabse tez",
-     "jawab: link"
-    ],
-    "items": [
-     [
-      "1",
-      "Ek link bhejo"
-     ],
-     [
-      "2",
-      "Customer khud dekhe"
-     ],
-     [
-      "3",
-      "Seedha order kare"
-     ]
-    ]
-   }
-  ]
- }
+  }
 ]
