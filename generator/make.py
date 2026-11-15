@@ -3,7 +3,8 @@
   python make.py next [--date YYYY-MM-DD]     render the next unposted topic
   python make.py <topic_id> [--date ...]       render a specific topic
   python make.py preview <topic_id>            write still frames only (fast check)
-  python make.py mark-posted <topic_id> <date> <json-of-post-ids>
+  python make.py mark-posted <topic_id> <date> <json-of-post-ids> [--slot am|pm]
+  python make.py status --date YYYY-MM-DD [--slot am|pm]   prints DONE <id> or TODO
 
 Output goes to ../<date>/daily_<topic_id>.mp4 plus ../<date>/daily_<topic_id>.json (captions for each platform).
 """
@@ -41,13 +42,23 @@ def build(t, date, preview=False):
     work = os.path.join(HERE, '.cache', 'work'); os.makedirs(work, exist_ok=True)
     lines = [s['vo'] for s in t['scenes']] + [OUTRO['vo']]
     vo = os.path.join(work, 'vo.wav'); marks, total = make_voiceover(lines, vo)
-    v = Video(t, marks, total)
+    silent = os.path.join(work, 'video.mp4'); engine = 'v2'
+    times = [round((m['start'] + m['end']) / 2 + 0.6, 2) for m in marks]
+    # v2 = animated presenter (v2/engine.py). Falls back to the old Pillow renderer if it cannot run.
+    try:
+        if os.environ.get('GD_ENGINE') == 'v1': raise RuntimeError('v1 requested')
+        from v2.engine import Animation
+        v = Animation(t, marks, total, vo)
+        if preview: v.stills(times, work)
+        else: v.render(silent)
+    except Exception as e:
+        print(f'v2 renderer unavailable ({e}); using v1', file=sys.stderr); engine = 'v1'
+        v = Video(t, marks, total)
+        if preview:
+            for i, ts in enumerate(times): v.frame(ts).resize((540, 960)).save(os.path.join(work, f'preview_{i}.png'))
+        else: v.render(silent)
     if preview:
-        for i, m in enumerate(marks):
-            ts = round((m['start'] + m['end']) / 2 + 0.6, 2)
-            v.frame(ts).resize((540, 960)).save(os.path.join(work, f'preview_{i}.png'))
-        print(json.dumps({'preview': work, 'marks': marks, 'total': total})); return
-    silent = os.path.join(work, 'video.mp4'); v.render(silent)
+        print(json.dumps({'preview': work, 'engine': engine, 'marks': marks, 'total': total})); return
     mus = os.path.join(work, 'music.wav')
     make_music(mus, v.dur, cues=[m['start'] for m in marks[1:]], seed=sum(map(ord, t['id'])) % 1000, key_semi=[0, 2, -3, 5][len(t['id']) % 4])
     out = os.path.join(outdir, f"daily_{t['id']}.mp4")
@@ -56,16 +67,24 @@ def build(t, date, preview=False):
           '[duck][vo]amix=inputs=2:normalize=0,alimiter=limit=0.95[a]')
     subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', silent, '-i', mus, '-i', vo, '-filter_complex', fc, '-map', '0:v', '-map', '[a]',
                     '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', str(v.dur), '-movflags', '+faststart', out], check=True)
-    meta = {'id': t['id'], 'date': date, 'video': os.path.relpath(out, REPO), 'duration': v.dur,
-            'thumbnail_ms': int((marks[0]['start'] + marks[0]['end']) / 2 * 1000), **captions(t)}
+    meta = {'id': t['id'], 'date': date, 'engine': engine, 'video': os.path.relpath(out, REPO), 'duration': v.dur,
+            'thumbnail_ms': int(((marks[0]['start'] + marks[0]['end']) / 2 + 0.4) * 1000), **captions(t)}
     json.dump(meta, open(out.replace('.mp4', '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(json.dumps(meta, ensure_ascii=False))
 
 if __name__ == '__main__':
     a = sys.argv[1:]; date = datetime.date.today().isoformat()
     if '--date' in a: i = a.index('--date'); date = a[i + 1]; a = a[:i] + a[i + 2:]
-    if a[0] == 'mark-posted':
-        log = load(POSTED, []); log.append({'id': a[1], 'date': a[2], 'posts': json.loads(a[3]) if len(a) > 3 else {}})
+    slot = None
+    if '--slot' in a: i = a.index('--slot'); slot = a[i + 1]; a = a[:i] + a[i + 2:]
+    if a[0] == 'status':
+        # DONE if this date (and slot, when given) is already in posted.json. Entries without a slot count as 'pm'.
+        hit = [p for p in load(POSTED, []) if p['date'] == date and (slot is None or p.get('slot', 'pm') == slot)]
+        print('DONE ' + hit[0]['id'] if hit else 'TODO')
+    elif a[0] == 'mark-posted':
+        log = load(POSTED, []); e = {'id': a[1], 'date': a[2], 'posts': json.loads(a[3]) if len(a) > 3 else {}}
+        if slot: e['slot'] = slot
+        log.append(e)
         json.dump(log, open(POSTED, 'w', encoding='utf-8'), ensure_ascii=False, indent=1); print('logged', a[1])
     elif a[0] == 'preview':
         build(next(t for t in load(TOPICS, []) if t['id'] == a[1]), date, preview=True)

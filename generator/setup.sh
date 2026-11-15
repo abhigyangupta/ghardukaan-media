@@ -10,5 +10,6 @@ REL=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1
 if [ ! -d .cache/node_modules/@fontsource/plus-jakarta-sans ]; then
   (cd .cache && echo '{"name":"gd-fonts","private":true}' > package.json && npm i --no-audit --no-fund @fontsource/plus-jakarta-sans >/dev/null)
 fi
+[ -d .cache/node_modules/gsap ] || (cd .cache && npm i --no-audit --no-fund gsap >/dev/null)
 command -v ffmpeg >/dev/null || { echo "ffmpeg missing"; exit 1; }
 python3 -c "import kokoro_onnx, PIL, scipy, soundfile; print('generator ready')"
