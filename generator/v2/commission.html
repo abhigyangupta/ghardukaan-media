@@ -1,0 +1,263 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:PJS;font-weight:500;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-500-normal.woff2)}
+@font-face{font-family:PJS;font-weight:600;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-600-normal.woff2)}
+@font-face{font-family:PJS;font-weight:700;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-700-normal.woff2)}
+@font-face{font-family:PJS;font-weight:800;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-800-normal.woff2)}
+@font-face{font-family:PJSx;font-weight:500;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-ext-500-normal.woff2)}
+@font-face{font-family:PJSx;font-weight:600;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-ext-600-normal.woff2)}
+@font-face{font-family:PJSx;font-weight:700;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-ext-700-normal.woff2)}
+@font-face{font-family:PJSx;font-weight:800;src:url(../.cache/node_modules/@fontsource/plus-jakarta-sans/files/plus-jakarta-sans-latin-ext-800-normal.woff2)}
+:root{--gold:#FFC454;--cream:#FAF4EA;--ink:#1E1B13;--jag:#422B22;--terra:#9E3D00;--terra2:#CC5705;--red:#FF6B57;--mint:#6FE39A;--ok:#15803D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#22120c;font-family:PJS,PJSx,sans-serif;color:#fff}
+.abs{position:absolute}
+#bg{inset:0;background:linear-gradient(180deg,#22120c 0%,#3a1a0d 55%,#54260e 100%)}
+.blob{border-radius:50%;width:1100px;height:1100px;left:0;top:0}
+#b1{background:radial-gradient(circle,rgba(204,87,5,.42) 0%,rgba(204,87,5,0) 62%)}
+#b2{background:radial-gradient(circle,rgba(255,196,84,.20) 0%,rgba(255,196,84,0) 62%)}
+#b3{background:radial-gradient(circle,rgba(158,61,0,.5) 0%,rgba(158,61,0,0) 62%)}
+#grid{inset:0;background-image:radial-gradient(rgba(255,226,170,.10) 2.2px,transparent 2.6px);background-size:54px 54px}
+#tint{inset:0;opacity:0}
+#redtint{background:radial-gradient(ellipse at 50% 45%,rgba(255,60,40,0) 30%,rgba(255,50,30,.38) 100%)}
+#greentint{background:radial-gradient(ellipse at 50% 45%,rgba(60,220,120,0) 30%,rgba(40,200,110,.22) 100%)}
+#stage{inset:0}
+#chip{left:50%;top:150px;transform:translateX(-50%);display:flex;align-items:center;gap:16px;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,226,170,.25);padding:12px 26px 12px 14px;border-radius:999px;font-weight:700;font-size:34px;letter-spacing:-.3px}
+#chip i{width:54px;height:54px;border-radius:50%;background:#fff;display:grid;place-items:center}
+#chip img{width:38px}
+.head{left:0;width:1080px;top:270px;text-align:center}
+.head .l1{font-weight:600;font-size:58px;color:#fff;opacity:.92;line-height:1.15}
+.head .l2{font-weight:800;font-size:84px;color:var(--gold);line-height:1.1;letter-spacing:-2px;margin-top:6px}
+.w{display:inline-block;white-space:pre}
+#pill1{left:50%;top:300px;background:var(--gold);color:var(--jag);font-weight:800;font-size:50px;padding:18px 44px;border-radius:999px;white-space:nowrap}
+#tiles{left:68px;top:560px;width:944px;height:236px}
+.tile{position:absolute;width:176px;height:110px;border-radius:20px;background:#FFF7EA;border:3px solid #E9C98A;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:36px;color:var(--jag);box-shadow:0 10px 0 rgba(0,0,0,.25)}
+.tile b{position:absolute;inset:0;border-radius:17px;opacity:0;display:flex;align-items:center;justify-content:center}
+.tile .r{background:#FFD3CA;color:#B3261E;outline:3px solid #E5483A}
+.tile .g{background:#D9F6E2;color:#0F6B33;outline:3px solid #2FA85A}
+#cut{left:440px;top:545px;width:4px;height:266px;border-left:5px dashed var(--red);opacity:0}
+.stat{left:0;width:1080px;top:850px;text-align:center}
+.stat .n{font-weight:800;font-size:230px;line-height:1;letter-spacing:-8px;display:inline-block}
+.stat .s{font-weight:700;font-size:56px;margin-top:10px;opacity:.95}
+#st1 .n{color:var(--gold)} #st2 .n{color:var(--red);font-size:200px} #st3 .n{color:var(--mint);font-size:300px}
+#st1{top:850px}
+#q{left:0;width:1080px;top:1130px;text-align:center;font-weight:800;font-size:92px;letter-spacing:-2px}
+#q em{font-style:normal;color:var(--gold);display:inline-block}
+.note{left:50%;top:1240px;white-space:nowrap;font-weight:600;font-size:36px;padding:14px 30px;border-radius:999px;background:rgba(255,255,255,.10);border:1.5px solid rgba(255,255,255,.22);color:#FFE9C4}
+#flow{left:68px;top:540px;width:944px;height:290px}
+.node{position:absolute;top:0;width:250px;height:290px;border-radius:36px;background:#FFF7EA;box-shadow:0 12px 0 rgba(0,0,0,.25);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:var(--jag);font-weight:800;font-size:40px}
+#nA{left:0} #nB{right:0}
+#nB img{width:150px}
+#line{left:270px;top:143px;width:404px;height:0;border-top:6px dashed rgba(255,226,170,.7)}
+#upi{left:472px;top:40px;background:var(--mint);color:#0B3D1E;font-weight:800;font-size:38px;padding:10px 28px;border-radius:16px}
+#seedha{left:472px;top:206px;white-space:nowrap;font-weight:700;font-size:34px;color:#FFE9C4}
+.coin{position:absolute;left:262px;top:108px;width:72px;height:72px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#FFE9A8,#FFC454 55%,#E09A1C);border:4px solid #B9770C;color:#7A4A00;font-weight:800;font-size:40px;display:grid;place-items:center;opacity:0}
+#capwrap{left:60px;width:960px;top:1390px;display:flex;justify-content:center}
+.cap{position:absolute;top:0;max-width:960px;background:rgba(15,8,5,.86);border:1.5px solid rgba(255,226,170,.18);border-radius:30px;padding:24px 36px;text-align:center;font-weight:700;font-size:46px;line-height:1.3;opacity:0}
+.cap span{color:rgba(255,236,200,.42)}
+.cap span.on{color:#fff}.cap span.now{color:var(--gold)}
+#wipe{left:540px;top:900px;width:10px;height:10px;margin:-5px;border-radius:50%;background:var(--cream);transform:scale(0)}
+#outro{inset:0;color:var(--ink);opacity:0}
+#ologo{left:50%;top:260px;width:400px;height:400px;margin-left:-200px;border-radius:96px;background:#fff;box-shadow:0 30px 80px rgba(120,60,10,.25);display:grid;place-items:center}
+#ologo img{width:290px}
+#oname{left:0;width:1080px;top:720px;text-align:center}
+#oname img{width:640px}
+#otag{left:0;width:1080px;top:855px;text-align:center;font-weight:700;font-size:54px;color:var(--terra)}
+#ourl{left:50%;top:970px;background:var(--terra);color:#fff;font-weight:800;font-size:62px;padding:30px 62px;border-radius:999px;white-space:nowrap;overflow:hidden;box-shadow:0 14px 0 #6b2900}
+#shine{position:absolute;top:-20%;left:-30%;width:22%;height:140%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg)}
+#ofree{left:50%;top:1145px;background:var(--ok);color:#fff;font-weight:800;font-size:52px;padding:20px 48px;border-radius:999px;white-space:nowrap}
+#oline{left:0;width:1080px;top:1268px;text-align:center;font-weight:600;font-size:38px;color:#6b5a50}
+.conf{position:absolute;left:540px;top:520px;width:22px;height:30px;border-radius:5px;opacity:0}
+#bar{left:0;top:0;height:10px;width:1080px;background:var(--gold);transform-origin:0 50%;transform:scaleX(0);opacity:.9}
+</style></head><body>
+<div id="bg" class="abs"></div>
+<div id="b1" class="abs blob"></div><div id="b2" class="abs blob"></div><div id="b3" class="abs blob"></div>
+<div id="grid" class="abs"></div>
+<div id="redtint" class="abs" style="inset:0;opacity:0"></div><div id="greentint" class="abs" style="inset:0;opacity:0"></div>
+
+<div id="stage" class="abs">
+  <div id="chip" class="abs"><i><img src="../assets/symbol.png"></i>GharDukaan</div>
+
+  <div id="pill1" class="abs">Mahine ki bikri</div>
+  <div id="h2" class="abs head"><div class="l1">matlab</div><div class="l2">20% commission</div></div>
+  <div id="h3" class="abs head"><div class="l1">GharDukaan pe</div><div class="l2" style="font-size:76px">poore ₹10,000 aapke</div></div>
+
+  <div id="tiles" class="abs"></div>
+  <div id="cut" class="abs"></div>
+
+  <div id="flow" class="abs">
+    <div id="line" class="abs"></div>
+    <div id="upi" class="abs">UPI</div>
+    <div id="seedha" class="abs">seedha aapko</div>
+    <div class="node" id="nA">
+      <svg width="120" height="150" viewBox="0 0 120 150"><rect x="22" y="4" width="76" height="142" rx="16" fill="#422B22"/><rect x="29" y="18" width="62" height="104" rx="6" fill="#FFE9C4"/><circle cx="60" cy="134" r="5" fill="#FFE9C4"/><circle cx="60" cy="56" r="15" fill="#CC5705"/><path d="M36 104c2-18 12-26 24-26s22 8 24 26z" fill="#CC5705"/></svg>
+      Customer</div>
+    <div class="node" id="nB"><img src="../assets/symbol.png">Aap</div>
+    <div class="coin">₹</div><div class="coin">₹</div><div class="coin">₹</div><div class="coin">₹</div>
+  </div>
+
+  <div id="st1" class="abs stat"><div class="n">₹0</div></div>
+  <div id="q" class="abs"><span class="w">Kitna </span><em class="w">aapka</em><em class="w" id="qm">?</em></div>
+  <div id="st2" class="abs stat"><div class="n">-₹2,000</div><div class="s">har mahine</div></div>
+  <div id="st3" class="abs stat"><div class="n">20%</div><div class="s">sales commission</div></div>
+  <div id="n2" class="abs note">Udaharan ke liye 20% maana gaya hai</div>
+  <div id="n3" class="abs note" style="top:1282px;background:var(--gold);color:var(--jag);border:0;font-weight:800;font-size:42px;padding:18px 38px">Bas ek flat monthly fee</div>
+</div>
+
+<div id="wipe" class="abs"></div>
+<div id="outro" class="abs">
+  <div id="confs"></div>
+  <div id="ologo" class="abs"><img src="../assets/symbol.png"></div>
+  <div id="oname" class="abs"><img src="../assets/wordmark.png"></div>
+  <div id="otag" class="abs">Apni Dukaan. Apne Phone Se.</div>
+  <div id="ourl" class="abs">www.ghardukaan.shop<div id="shine"></div></div>
+  <div id="ofree" class="abs">Pehle 30 din FREE</div>
+  <div id="oline" class="abs">Dukaan Pro ₹99/month &nbsp;•&nbsp; 0% commission</div>
+</div>
+
+<div id="capwrap" class="abs"></div>
+<div id="bar" class="abs"></div>
+
+<script src="../.cache/node_modules/gsap/dist/gsap.min.js"></script>
+<script>
+const M = window.__MARKS || [{start:.35,end:5.148},{start:5.448,end:9.685},{start:9.985,end:16.431},{start:16.731,end:22.368}];
+const DUR = window.__DUR || 23.29;
+const CAPS = ["Maan lo aapne ek mahine mein ₹10,000 ka maal becha.","Agar 20% commission kate, toh ₹2,000 chale gaye.",
+  "GharDukaan pe bikri pe 0% commission. Customer seedha aapko UPI se pay karta hai.","ghardukaan.shop pe aaj hi apni dukaan banao. Pehle 30 din FREE."];
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const inr = n => '₹' + Math.round(n).toLocaleString('en-IN');
+
+// tiles
+const tiles = $('#tiles');
+for (let i = 0; i < 10; i++) { const d = document.createElement('div'); d.className = 'tile';
+  d.style.left = (i % 5) * 192 + 'px'; d.style.top = Math.floor(i / 5) * 126 + 'px';
+  d.innerHTML = '₹1,000<b class="r">₹1,000</b><b class="g">₹1,000</b>'; tiles.appendChild(d); }
+const T = $$('.tile'), CUT = [T[3], T[4]], KEEP = T.filter(x => !CUT.includes(x));
+// reorder so the two "commission" tiles are top-right
+// captions
+const capEls = CAPS.map((c, i) => { const d = document.createElement('div'); d.className = 'cap';
+  const words = c.split(' '); const tot = words.reduce((a, w) => a + w.length + 1, 0); let acc = 0;
+  d.innerHTML = words.map(w => { const a = acc / tot; acc += w.length + 1; return `<span data-a="${a}" data-b="${acc / tot}">${w}</span>`; }).join(' ');
+  $('#capwrap').appendChild(d); return d; });
+// confetti
+const cols = ['#CC5705', '#FFC454', '#15803D', '#9E3D00', '#F29E4C'];
+for (let i = 0; i < 46; i++) { const c = document.createElement('div'); c.className = 'conf'; c.style.background = cols[i % 5]; $('#confs').appendChild(c); }
+// split headline words
+$$('.head .l1,.head .l2').forEach(el => { el.innerHTML = el.textContent.split(' ').map(w => `<span class="w">${w} </span>`).join(''); });
+
+gsap.defaults({ ease: 'power3.out' });
+const tl = gsap.timeline({ paused: true });
+const s1 = M[0].start - .25, s2 = M[1].start - .15, s3 = M[2].start - .15, s4 = M[3].start - .2;
+const mid3 = M[2].start + (M[2].end - M[2].start) * .47;   // second sentence of line 3 ("Customer seedha aapko UPI se...")
+
+gsap.set(['#h2', '#h3', '#st2', '#st3', '#n2', '#n3', '#flow', '#q'], { autoAlpha: 0 });
+gsap.set(['#pill1', '.note', '#upi', '#seedha', '#ourl', '#ofree'], { xPercent: -50 });
+
+
+// ---------- Scene 1: hook ----------
+tl.from('#chip', { y: -120, autoAlpha: 0, duration: .6 }, 0)
+  .from('#pill1', { scale: 0, autoAlpha: 0, duration: .55, ease: 'back.out(2)' }, s1 + .1)
+  .from(T, { scale: 0, y: 60, rotation: () => gsap.utils.random(-25, 25), autoAlpha: 0, duration: .5, ease: 'back.out(1.8)', stagger: .17 }, s1 + .7)
+  .from('#st1', { autoAlpha: 0, y: 60, duration: .4 }, s1 + .6);
+const cnt = { v: 0 };
+tl.to(cnt, { v: 10000, duration: 1.9, ease: 'power1.inOut', snap: { v: 100 }, onUpdate: () => $('#st1 .n').textContent = inr(cnt.v) }, s1 + .75)
+  .fromTo('#st1 .n', { scale: 1 }, { scale: 1.14, duration: .18, yoyo: true, repeat: 1, ease: 'power2.out' }, s1 + 2.65)
+  .set('#q', { autoAlpha: 1 }, M[0].end - 1.5)
+  .from('#q .w', { y: 90, autoAlpha: 0, rotation: 8, duration: .45, ease: 'back.out(2)', stagger: .12 }, M[0].end - 1.5)
+  .to('#qm', { rotation: 18, scale: 1.35, duration: .22, yoyo: true, repeat: 3, ease: 'sine.inOut', transformOrigin: '50% 80%' }, M[0].end - .9);
+
+// ---------- Scene 2: 20% commission ----------
+tl.to(['#pill1', '#q'], { y: -70, autoAlpha: 0, duration: .3, ease: 'power2.in' }, s2 - .15)
+  .to('#st1', { scale: .5, y: -40, autoAlpha: 0, duration: .3, ease: 'power2.in' }, s2 - .15)
+  .set('#h2', { autoAlpha: 1 }, s2 + .1)
+  .from('#h2 .l2 .w', { scale: 2.6, autoAlpha: 0, duration: .32, ease: 'power4.in', stagger: .14 }, s2 + .25)
+  .from('#h2 .l1 .w', { y: 40, autoAlpha: 0, duration: .35 }, s2 + .15)
+  .fromTo('#stage', { x: 0 }, { x: 10, duration: .05, yoyo: true, repeat: 5, ease: 'none' }, s2 + .57)
+  .to('#cut', { opacity: 1, duration: .2 }, s2 + .9).from('#cut', { scaleY: 0, transformOrigin: '50% 0', duration: .4 }, s2 + .9)
+  .to(CUT.map(t => t.querySelector('.r')), { opacity: 1, duration: .25, stagger: .1 }, s2 + 1.0)
+  .to('#redtint', { opacity: 1, duration: .5 }, s2 + 1.0)
+  .to(CUT, { x: '+=6', duration: .05, yoyo: true, repeat: 9, ease: 'none' }, s2 + 1.3);
+const fly = M[1].start + (M[1].end - M[1].start) * .52;   // "...toh ₹2,000 chale gaye"
+tl.to(CUT, { x: 520, y: -760, rotation: (i) => 50 + i * 70, scale: .5, autoAlpha: 0, duration: .8, ease: 'power2.in', stagger: .12 }, fly)
+  .to('#cut', { opacity: 0, duration: .3 }, fly + .3)
+  .set('#st2', { autoAlpha: 1 }, fly + .35)
+  .from('#st2 .n', { scale: 3, autoAlpha: 0, duration: .32, ease: 'power4.in' }, fly + .35)
+  .fromTo('#stage', { y: 0 }, { y: 12, duration: .05, yoyo: true, repeat: 5, ease: 'none' }, fly + .67)
+  .from('#st2 .s', { y: 30, autoAlpha: 0, duration: .35 }, fly + .75)
+  .fromTo('#n2', { y: 30, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: .4 }, s2 + 1.2);
+
+// ---------- Scene 3: GharDukaan 0% ----------
+const pct = { v: 20 };
+tl.to(['#h2', '#st2', '#n2'], { y: -60, autoAlpha: 0, duration: .3, ease: 'power2.in' }, s3 - .15)
+  .to('#redtint', { opacity: 0, duration: .4 }, s3 - .1)
+  .to('#greentint', { opacity: 1, duration: .8 }, s3 + .2)
+  .set('#h3', { autoAlpha: 1 }, s3 + .1)
+  .from('#h3 .l1 .w', { y: 50, autoAlpha: 0, duration: .4, stagger: .08 }, s3 + .15)
+  .from('#h3 .l2 .w', { y: 70, autoAlpha: 0, rotation: 6, duration: .45, ease: 'back.out(1.8)', stagger: .11 }, s3 + .45)
+  .fromTo(CUT, { x: -500, y: -700, rotation: -90, scale: .5, autoAlpha: 0 }, { x: 0, y: 0, rotation: 0, scale: 1, autoAlpha: 1, duration: .7, ease: 'back.out(1.4)', stagger: .12, immediateRender: false }, s3 + .5)
+  .to(CUT.map(t => t.querySelector('.r')), { opacity: 0, duration: .2 }, s3 + 1.0)
+  .to(T.map(t => t.querySelector('.g')), { opacity: 1, duration: .25, stagger: .05 }, s3 + 1.15)
+  .to(T, { y: -18, duration: .16, yoyo: true, repeat: 1, ease: 'power2.out', stagger: .05 }, s3 + 1.15)
+  .fromTo('#st3', { scale: .6, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: .4, ease: 'back.out(2)' }, s3 + .9)
+  .to(pct, { v: 0, duration: 1.0, ease: 'power2.inOut', snap: { v: 1 }, onUpdate: () => $('#st3 .n').textContent = Math.round(pct.v) + '%' }, s3 + 1.2)
+  .fromTo('#st3 .n', { color: '#FF6B57' }, { color: '#6FE39A', duration: 1.0, ease: 'power2.inOut' }, s3 + 1.2)
+  .fromTo('#st3 .n', { scale: 1 }, { scale: 1.18, duration: .2, yoyo: true, repeat: 1, ease: 'power2.out' }, s3 + 2.2)
+  // 3b: money goes straight from customer to you
+  .to(T, { scale: 0, autoAlpha: 0, duration: .35, ease: 'back.in(1.6)', stagger: .03 }, mid3 - .35)
+  .set('#flow', { autoAlpha: 1 }, mid3)
+  .from('#nA', { x: -320, autoAlpha: 0, duration: .5, ease: 'back.out(1.3)' }, mid3)
+  .from('#nB', { x: 320, autoAlpha: 0, duration: .5, ease: 'back.out(1.3)' }, mid3 + .15)
+  .from('#line', { scaleX: 0, transformOrigin: '0 50%', duration: .5 }, mid3 + .45)
+  .from('#upi', { scale: 0, autoAlpha: 0, duration: .4, ease: 'back.out(2.2)' }, mid3 + .75)
+  .from('#seedha', { y: 20, autoAlpha: 0, duration: .4 }, mid3 + .9);
+$$('.coin').forEach((c, i) => {
+  const t0 = mid3 + 1.0 + i * .55;
+  tl.fromTo(c, { x: 0, opacity: 0, scale: .4 }, { x: 350, opacity: 1, scale: 1, duration: .8, ease: 'power1.inOut', immediateRender: false }, t0)
+    .to(c, { opacity: 0, scale: .3, duration: .15 }, t0 + .72)
+    .fromTo('#nB', { scale: 1 }, { scale: 1.07, duration: .1, yoyo: true, repeat: 1, ease: 'power2.out', immediateRender: false }, t0 + .78);
+});
+tl.fromTo('#n3', { scale: 0, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: .45, ease: 'back.out(2)' }, mid3 + 1.6);
+
+// ---------- Scene 4: outro ----------
+tl.to('#wipe', { scale: 260, duration: .7, ease: 'power2.inOut' }, s4 - .25)
+  .set('#outro', { opacity: 1 }, s4 + .1)
+  .set('#stage', { autoAlpha: 0 }, s4 + .45)
+  .from('#ologo', { scale: 0, rotation: -25, duration: .7, ease: 'back.out(1.7)' }, s4 + .2)
+  .from('#oname', { y: 60, autoAlpha: 0, duration: .5 }, s4 + .6)
+  .from('#otag', { y: 40, autoAlpha: 0, duration: .5 }, s4 + .85)
+  .from('#ourl', { scale: 0, autoAlpha: 0, duration: .55, ease: 'back.out(1.8)' }, s4 + 1.3)
+  .fromTo('#shine', { left: '-30%' }, { left: '120%', duration: .9, ease: 'power1.inOut' }, s4 + 1.9)
+  .from('#ofree', { scale: 0, autoAlpha: 0, duration: .5, ease: 'back.out(2.2)' }, M[3].start + (M[3].end - M[3].start) * .55)
+  .to('#ofree', { scale: 1.08, duration: .35, yoyo: true, repeat: 5, ease: 'sine.inOut' }, M[3].start + (M[3].end - M[3].start) * .55 + .6)
+  .from('#oline', { y: 30, autoAlpha: 0, duration: .5 }, M[3].start + (M[3].end - M[3].start) * .55 + .4)
+  .fromTo('#shine', { left: '-30%' }, { left: '120%', duration: .9, ease: 'power1.inOut', immediateRender: false }, M[3].end - .6);
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+$$('.conf').forEach((c) => { const a = rnd() * Math.PI * 2, r = 380 + rnd() * 520, t0 = s4 + .35 + rnd() * .15;
+  tl.fromTo(c, { x: 0, y: 0, opacity: 1, rotation: 0, scale: .4 }, { x: Math.cos(a) * r, y: Math.sin(a) * r * .8 - 120, rotation: rnd() * 720 - 360, scale: 1, duration: .9, ease: 'power3.out', immediateRender: false }, t0)
+    .to(c, { y: '+=700', opacity: 0, rotation: '+=200', duration: 1.6, ease: 'power1.in' }, t0 + .85); });
+
+// captions in/out
+capEls.forEach((el, i) => { const a = M[i].start - .12, b = (i < 3 ? M[i + 1].start - .22 : DUR);
+  tl.fromTo(el, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .25, immediateRender: false }, a);
+  if (i < 3) tl.to(el, { opacity: 0, y: -20, duration: .18, ease: 'power2.in' }, b); });
+tl.to('#capwrap', { duration: .01 }, DUR);   // pad timeline to full length
+
+window.seek = (t) => {
+  tl.seek(t, false);
+  // ambient background
+  const o = (id, x, y) => $(id).style.transform = `translate(${x}px,${y}px)`;
+  o('#b1', -350 + 160 * Math.sin(t * .5), -250 + 120 * Math.cos(t * .4));
+  o('#b2', 380 + 140 * Math.cos(t * .45), 500 + 180 * Math.sin(t * .35));
+  o('#b3', -100 + 200 * Math.sin(t * .3 + 2), 1100 + 100 * Math.cos(t * .5));
+  $('#grid').style.backgroundPosition = `0px ${-t * 14}px`;
+  $('#bar').style.transform = `scaleX(${Math.min(1, t / DUR)})`;
+  // word-by-word captions
+  capEls.forEach((el, i) => { const p = (t - M[i].start) / (M[i].end - M[i].start);
+    el.querySelectorAll('span').forEach(s => { const a = +s.dataset.a, b = +s.dataset.b;
+      s.className = p >= b ? 'on' : (p >= a ? 'now' : ''); }); });
+  // idle float for tiles
+  T.forEach((el, i) => el.style.marginTop = (Math.sin(t * 2.2 + i * .7) * 4) + 'px');
+};
+window.ready = document.fonts.ready.then(() => Promise.all([...document.images].map(i => i.decode().catch(() => 0)))).then(() => { seek(0); return true; });
+</script></body></html>
