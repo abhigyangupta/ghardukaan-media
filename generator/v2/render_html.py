@@ -10,13 +10,23 @@ V2 = os.path.dirname(os.path.abspath(__file__)); GEN = os.path.dirname(V2); OUT 
 sys.path.insert(0, GEN)
 FPS = 30
 m = json.load(open(os.path.join(OUT, 'marks.json'))); MARKS, DUR = m['marks'], round(m['total'] + 0.6, 2)
+HTML = os.environ.get('GD_HTML', 'commission.html'); NAME = os.environ.get('GD_NAME', 'commission-maths_v2')
+
+def envelope():
+    """Per-frame mouth openness (0..1) from the voice track, for lip-sync."""
+    import numpy as np, soundfile as sf
+    a, sr = sf.read(os.path.join(OUT, 'vo.wav')); a = a if a.ndim == 1 else a.mean(1); hop = sr // FPS
+    rms = np.array([np.sqrt(np.mean(a[i:i + hop] ** 2)) for i in range(0, len(a), hop)])
+    e = np.clip(rms / (np.percentile(rms, 92) + 1e-9), 0, 1); e[e < 0.12] = 0; out = []; p = 0.0
+    for v in e: p = v if v > p else p * 0.55 + v * 0.45; out.append(round(float(p), 3))
+    return out
 
 def page_ctx(p):
     b = p.chromium.launch(); pg = b.new_page(viewport={'width': 1080, 'height': 1920}, device_scale_factor=1)
-    pg.add_init_script(f'window.__MARKS={json.dumps(MARKS)};window.__DUR={DUR};')
+    pg.add_init_script(f'window.__MARKS={json.dumps(MARKS)};window.__DUR={DUR};window.__ENV={json.dumps(envelope())};')
     pg.on('console', lambda msg: print('console:', msg.text) if msg.type == 'error' else None)
     pg.on('pageerror', lambda e: print('pageerror:', e))
-    pg.goto('file://' + os.path.join(V2, 'commission.html')); pg.evaluate('window.ready')
+    pg.goto('file://' + os.path.join(V2, HTML)); pg.evaluate('window.ready')
     return b, pg
 
 def stills(ts):
@@ -40,7 +50,7 @@ def video():
     from music import make_music
     mus = os.path.join(OUT, 'music.wav'); vo = os.path.join(OUT, 'vo.wav'); tid = 'commission-maths'
     make_music(mus, DUR, cues=[x['start'] for x in MARKS[1:]], seed=sum(map(ord, tid)) % 1000, key_semi=[0, 2, -3, 5][len(tid) % 4])
-    out = os.path.join(OUT, 'commission-maths_v2.mp4')
+    out = os.path.join(OUT, NAME + '.mp4')
     fc = ('[2:a]apad,volume=1.0,aformat=channel_layouts=stereo,asplit=2[vo][sc];'
           '[1:a]apad,volume=0.5[mus];[mus][sc]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=400[duck];'
           '[duck][vo]amix=inputs=2:normalize=0,alimiter=limit=0.95[a]')
