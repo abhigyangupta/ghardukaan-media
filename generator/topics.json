@@ -758,59 +758,72 @@
     ]
   },
   {
-    "id": "repeat-customers",
-    "theme": "night",
-    "yt_title": "Ek customer ko baar baar kaise laayein",
-    "caption": "Naya customer laana mushkil hai. Purane ko wapas laana aasaan. 🙏\n\n1. Delivery ke baad thank-you message\n2. Product ki photo ya feedback maango\n3. Naya stock aaye toh pehle unhe batao\n\nRepeat customer hi asli kamaai hai. 🧡",
-    "hashtags": "#CustomerLoyalty #GharDukaan #HomeBusiness #SmallBusinessIndia #WhatsAppBusiness #Homepreneur",
+    "id": "sardi-season",
+    "theme": "light",
+    "yt_title": "Sardi mein ghar se kya bechein — 4 aasaan ideas",
+    "caption": "Sardi aa gayi! 🧣\n\nGhar se bechne ke liye sardi ke ideas:\n• Til laddoo aur gajak\n• Ghar ka achaar\n• Haath se bune muffler aur topi\n• Masala chai mix\n\nAbhi se stock aur photos ready karo. Save karo! 🧡",
+    "hashtags": "#GharDukaan #WinterSpecial #HomeBusiness #HandmadeInIndia #HomeFood #SmallBusinessIndia",
     "scenes": [
       {
         "kind": "hook",
-        "vo": "नया ग्राहक लाना मुश्किल है, पर पुराने को वापस लाना आसान।",
-        "cap": "Naya customer laana mushkil, purane ko wapas laana aasaan.",
+        "vo": "सर्दी आ गई। अब लोग गरम, घर की बनी चीज़ें ढूँढते हैं। आपकी दुकान तैयार है?",
+        "cap": "Sardi aa gayi. Ab log garam, ghar ki bani cheezein dhoondhte hain. Aapki dukaan ready hai?",
         "big": [
-          "Ek customer,",
-          "baar baar",
-          "kaise?"
+          "Sardi aa gayi!",
+          "Kya bechein?",
+          "4 ideas"
         ]
       },
       {
         "kind": "list",
-        "vo": "डिलीवरी के बाद धन्यवाद भेजिए, फ़ीडबैक माँगिए, और नया स्टॉक आए तो सबसे पहले उन्हें बताइए।",
-        "cap": "Delivery ke baad thank-you bhejo, feedback maango, naya stock pehle unhe batao.",
+        "vo": "तिल के लड्डू और गजक, घर का अचार, हाथ से बुने मफ़लर, और मसाला चाय मिक्स।",
+        "cap": "Til laddoo aur gajak, ghar ka achaar, haath se bune muffler, aur masala chai mix.",
         "head": [
-          "3 aasaan",
-          "kadam"
+          "Sardi ke",
+          "4 ideas"
         ],
         "items": [
           [
             "1",
-            "Thank-you message",
-            "Delivery ke turant baad"
+            "Til laddoo, gajak"
           ],
           [
             "2",
-            "Feedback maango",
-            "Ya product ki photo"
+            "Ghar ka achaar"
           ],
           [
             "3",
-            "Naya stock pehle unhe",
-            "Dukaan ka link bhejo"
+            "Haath se bune muffler",
+            "Topi aur mojey bhi"
+          ],
+          [
+            "4",
+            "Masala chai mix"
           ]
         ]
       },
       {
-        "kind": "stat",
-        "vo": "और क्योंकि ऑर्डर आपके व्हाट्सऐप पर आता है, ग्राहक का नंबर हमेशा आपके पास रहता है।",
-        "cap": "Order aapke WhatsApp pe aata hai, toh customer ka number hamesha aapke paas.",
+        "kind": "list",
+        "vo": "अभी से स्टॉक बनाइए, धूप में अच्छी फ़ोटो खींचिए, और अपना लिंक व्हाट्सऐप स्टेटस पर लगाइए।",
+        "cap": "Abhi se stock banao, dhoop mein achhi photo lo, aur apna link WhatsApp Status pe lagao.",
         "head": [
-          "Customer aapka,",
-          "number aapka"
+          "Abhi se",
+          "taiyari"
         ],
-        "stat": "Direct",
-        "sub": "Customer se seedha rishta",
-        "note": "Asli number, koi masking nahi"
+        "items": [
+          [
+            "1",
+            "Stock ready"
+          ],
+          [
+            "2",
+            "Dhoop mein photo"
+          ],
+          [
+            "3",
+            "Link Status pe"
+          ]
+        ]
       }
     ]
   },
@@ -868,6 +881,134 @@
         "stat": "₹199",
         "sub": "per month",
         "note": "Pro ke saare features, unlimited categories aur AI tools"
+      }
+    ]
+  },
+  {
+    "id": "repeat-customers",
+    "theme": "night",
+    "yt_title": "Ek customer ko baar baar kaise laayein",
+    "caption": "Naya customer laana mushkil hai. Purane ko wapas laana aasaan. 🙏\n\n1. Delivery ke baad thank-you message\n2. Product ki photo ya feedback maango\n3. Naya stock aaye toh pehle unhe batao\n\nRepeat customer hi asli kamaai hai. 🧡",
+    "hashtags": "#CustomerLoyalty #GharDukaan #HomeBusiness #SmallBusinessIndia #WhatsAppBusiness #Homepreneur",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "नया ग्राहक लाना मुश्किल है, पर पुराने को वापस लाना आसान।",
+        "cap": "Naya customer laana mushkil, purane ko wapas laana aasaan.",
+        "big": [
+          "Ek customer,",
+          "baar baar",
+          "kaise?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "डिलीवरी के बाद धन्यवाद भेजिए, फ़ीडबैक माँगिए, और नया स्टॉक आए तो सबसे पहले उन्हें बताइए।",
+        "cap": "Delivery ke baad thank-you bhejo, feedback maango, naya stock pehle unhe batao.",
+        "head": [
+          "3 aasaan",
+          "kadam"
+        ],
+        "items": [
+          [
+            "1",
+            "Thank-you message",
+            "Delivery ke turant baad"
+          ],
+          [
+            "2",
+            "Feedback maango",
+            "Ya product ki photo"
+          ],
+          [
+            "3",
+            "Naya stock pehle unhe",
+            "Dukaan ka link bhejo"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "और क्योंकि ऑर्डर आपके व्हाट्सऐप पर आता है, ग्राहक का नंबर हमेशा आपके पास रहता है।",
+        "cap": "Order aapke WhatsApp pe aata hai, toh customer ka number hamesha aapke paas.",
+        "head": [
+          "Customer aapka,",
+          "number aapka"
+        ],
+        "stat": "Direct",
+        "sub": "Customer se seedha rishta",
+        "note": "Asli number, koi masking nahi"
+      }
+    ]
+  },
+  {
+    "id": "december-gifting",
+    "theme": "night",
+    "yt_title": "Christmas aur New Year: ghar se kya bechein",
+    "caption": "December = gifting season! 🎁\n\nChristmas aur New Year ke liye ghar se bechne ke ideas:\n• Ghar ka cake aur cookies\n• Handmade candles\n• Naye saal ke calendar aur planner\n• Chhote gift box\n\nHar product pe last order date likho. Us dost ko bhejo jo ghar se bechta hai! 🧡",
+    "hashtags": "#GharDukaan #ChristmasGifts #NewYearGifts #HomeBusiness #HandmadeInIndia #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "दिसंबर में क्रिसमस और नया साल। तोहफ़ों का मौसम आने वाला है, तैयारी अभी से।",
+        "cap": "December mein Christmas aur naya saal. Tohfon ka mausam aane wala hai, taiyari abhi se.",
+        "big": [
+          "December",
+          "gifting season",
+          "abhi se taiyari"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "घर का केक और कुकीज़, हाथ से बनी मोमबत्तियाँ, नए साल के कैलेंडर, और छोटे गिफ़्ट बॉक्स।",
+        "cap": "Ghar ka cake aur cookies, handmade candles, naye saal ke calendar, aur chhote gift box.",
+        "head": [
+          "Inhe",
+          "bechiye"
+        ],
+        "items": [
+          [
+            "1",
+            "Ghar ka cake, cookies"
+          ],
+          [
+            "2",
+            "Handmade candles"
+          ],
+          [
+            "3",
+            "Naye saal ke calendar",
+            "Diary aur planner bhi"
+          ],
+          [
+            "4",
+            "Chhote gift box",
+            "Office aur dosto ke liye"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "हर प्रोडक्ट पर दाम और आख़िरी ऑर्डर की तारीख़ लिखिए, फिर लिंक सबको भेजिए।",
+        "cap": "Har product pe daam aur last order ki date likho, phir link sabko bhejo.",
+        "head": [
+          "Ek zaroori",
+          "tip"
+        ],
+        "items": [
+          [
+            "1",
+            "Daam likho"
+          ],
+          [
+            "2",
+            "Last order date"
+          ],
+          [
+            "3",
+            "Link sabko bhejo"
+          ]
+        ]
       }
     ]
   }
