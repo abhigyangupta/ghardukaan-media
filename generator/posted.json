@@ -88,5 +88,15 @@
    "facebook": "6af1d3f616e7ebcf361f5724",
    "status": "scheduled"
   }
+ },
+ {
+  "id": "commission-maths",
+  "date": "2026-11-16",
+  "posts": {
+   "instagram": "6afa77b8a869c35e5bb4a801",
+   "facebook": "6afa77c9ff465c57dacd6738",
+   "youtube": "6afa77daa869c35e5bb4aec4"
+  },
+  "slot": "am"
  }
 ]
