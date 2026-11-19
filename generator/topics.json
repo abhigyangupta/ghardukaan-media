@@ -1011,5 +1011,431 @@
         ]
       }
     ]
+  },
+  {
+    "id": "packaging-tips",
+    "theme": "light",
+    "yt_title": "Packing achhi, customer khush: 4 simple tips",
+    "caption": "Packing bhi aapki dukaan ki pehchaan hai! 📦\n\nGhar se bechte ho toh yeh 4 cheezein yaad rakho:\n• Saaf aur mazboot dabba\n• Andar ek chhota thank you note\n• Khane ki cheez pe date likho\n• Toot-ne wali cheez ko achhe se lapeto\n\nSave karo aur agli packing mein try karo!",
+    "hashtags": "#GharDukaan #PackagingIdeas #HomeBusiness #SmallBusinessIndia #HandmadeInIndia #SellerTips",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "ग्राहक सबसे पहले आपका पैकेट देखता है। अच्छी पैकिंग से भरोसा बढ़ता है।",
+        "cap": "Customer sabse pehle aapka packet dekhta hai. Achhi packing se bharosa badhta hai.",
+        "big": [
+          "Pehli nazar",
+          "PACKING",
+          "pe padti hai"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "साफ़ और मज़बूत डिब्बा, अंदर छोटा सा थैंक यू नोट, खाने की चीज़ पर तारीख़, और नाज़ुक चीज़ को अच्छे से लपेटिए।",
+        "cap": "Saaf aur mazboot dabba, andar chhota thank you note, khane ki cheez pe date, aur naazuk cheez ko achhe se lapeto.",
+        "head": [
+          "Packing ke",
+          "4 tips"
+        ],
+        "items": [
+          [
+            "1",
+            "Saaf, mazboot dabba"
+          ],
+          [
+            "2",
+            "Thank you note",
+            "Haath se likha ho toh aur achha"
+          ],
+          [
+            "3",
+            "Date likho",
+            "Khane ki cheezon pe"
+          ],
+          [
+            "4",
+            "Naazuk cheez lapeto",
+            "Bubble wrap ya akhbaar"
+          ]
+        ]
+      },
+      {
+        "kind": "vs",
+        "vo": "ढीली पॉलीथीन की जगह साफ़ डिब्बा, और बिना नोट की जगह एक प्यारा सा धन्यवाद।",
+        "cap": "Dheeli polythene ki jagah saaf dabba, aur bina note ki jagah ek pyaara sa thank you.",
+        "head": [
+          "Chhota badlav,",
+          "bada asar"
+        ],
+        "rows": [
+          [
+            "Dheeli polythene",
+            "Saaf, band dabba"
+          ],
+          [
+            "Koi note nahi",
+            "Thank you note"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "customer-reviews",
+    "theme": "night",
+    "yt_title": "Customer se review kaise maangein? 3 aasaan tarike",
+    "caption": "Achha review = naye customer ka bharosa ⭐\n\nReview maangne ke 3 tarike:\n• Delivery ke agle din WhatsApp pe poocho\n• Customer ki photo ya message ka screenshot (unki permission se)\n• Reviews ko apne WhatsApp status pe daalo\n\nAap review kaise maangte ho? Comment mein batao!",
+    "hashtags": "#GharDukaan #CustomerReviews #WhatsAppBusiness #HomeBusiness #SmallBusinessIndia #SellerTips",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "नया ग्राहक खरीदने से पहले सोचता है, क्या भरोसा करूँ? जवाब है, पुराने ग्राहकों के रिव्यू।",
+        "cap": "Naya customer kharidne se pehle sochta hai, kya bharosa karun? Jawab hai, purane customers ke review.",
+        "big": [
+          "Bharosa",
+          "REVIEW",
+          "se banta hai"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "डिलीवरी के अगले दिन व्हाट्सऐप पर पूछिए, इजाज़त लेकर स्क्रीनशॉट लीजिए, और स्टेटस पर लगाइए।",
+        "cap": "Delivery ke agle din WhatsApp pe poocho, permission lekar screenshot lo, aur status pe lagao.",
+        "head": [
+          "Review maangne ke",
+          "3 tarike"
+        ],
+        "items": [
+          [
+            "1",
+            "Agle din poocho",
+            "Kaisa laga aapko?"
+          ],
+          [
+            "2",
+            "Screenshot lo",
+            "Customer ki permission se"
+          ],
+          [
+            "3",
+            "Status pe lagao",
+            "Sab dekhenge"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "एक छोटा सा सवाल, कैसा लगा आपको? यही आपकी दुकान का सबसे अच्छा विज्ञापन बन सकता है।",
+        "cap": "Ek chhota sa sawaal, kaisa laga aapko? Yahi aapki dukaan ka sabse achha vigyapan ban sakta hai.",
+        "head": [
+          "Bas ek",
+          "sawaal poocho"
+        ],
+        "stat": "1 sawaal",
+        "sub": "Kaisa laga aapko?",
+        "note": "Hamesha customer ki permission se share karo"
+      }
+    ]
+  },
+  {
+    "id": "combo-offers",
+    "theme": "light",
+    "yt_title": "Combo offer banao, ek order mein zyada becho",
+    "caption": "Ek cheez ki jagah combo becho! 🎁\n\nCombo ke 3 aasaan idea:\n• Saath mein use hone wali cheezein milao\n• Chhota, medium, bada pack\n• Tyohar ke liye gift combo\n\nUdaharan ke liye: achaar + papad combo. Aap kaunsa combo banaoge? Comment karo!",
+    "hashtags": "#GharDukaan #ComboOffer #HomeBusiness #SmallBusinessIndia #SellMore #SellerTips",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "ग्राहक एक चीज़ लेने आया, आप उसे साथ वाली चीज़ भी दिखाइए। यही है कॉम्बो।",
+        "cap": "Customer ek cheez lene aaya, aap usse saath wali cheez bhi dikhao. Yahi hai combo.",
+        "big": [
+          "Ek ki jagah",
+          "COMBO",
+          "becho"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "साथ में इस्तेमाल होने वाली चीज़ें मिलाइए, छोटा बड़ा पैक बनाइए, और त्योहार के लिए गिफ़्ट कॉम्बो।",
+        "cap": "Saath mein use hone wali cheezein milao, chhota bada pack banao, aur tyohar ke liye gift combo.",
+        "head": [
+          "Combo ke",
+          "3 idea"
+        ],
+        "items": [
+          [
+            "1",
+            "Saath wali cheezein",
+            "Achaar aur papad"
+          ],
+          [
+            "2",
+            "Chhota, bada pack"
+          ],
+          [
+            "3",
+            "Gift combo",
+            "Tyohar ke liye"
+          ]
+        ]
+      },
+      {
+        "kind": "vs",
+        "vo": "उदाहरण के लिए, अलग अलग बेचने की जगह, एक कॉम्बो जिसका नाम और दाम साफ़ लिखा हो।",
+        "cap": "Udaharan ke liye, alag alag bechne ki jagah, ek combo jiska naam aur daam saaf likha ho.",
+        "head": [
+          "Udaharan",
+          "ke liye"
+        ],
+        "rows": [
+          [
+            "Sirf achaar",
+            "Achaar + papad combo"
+          ],
+          [
+            "Daam poochna pade",
+            "Combo ka daam likha ho"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-order-feature",
+    "theme": "night",
+    "yt_title": "GharDukaan pe order WhatsApp pe kaise aata hai?",
+    "caption": "Customer order kaise karta hai? Bahut aasaan! 📲\n\n• Customer aapki dukaan ka link kholta hai\n• Products aur quantity chunta hai\n• WhatsApp pe poora order message apne aap ban jaata hai\n• Payment seedha aapko UPI se\n\nKoi sawaal ho toh comment mein poocho!",
+    "hashtags": "#GharDukaan #WhatsAppOrders #OnlineDukaan #UPI #HomeBusiness #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "घरदुकान पर ग्राहक ऑर्डर कैसे करता है? सीधा आपके व्हाट्सऐप पर।",
+        "cap": "GharDukaan pe customer order kaise karta hai? Seedha aapke WhatsApp pe.",
+        "big": [
+          "Order aata hai",
+          "WHATSAPP",
+          "pe seedha"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "ग्राहक लिंक खोलता है, सामान और मात्रा चुनता है, और व्हाट्सऐप पर पूरा ऑर्डर मैसेज अपने आप बन जाता है।",
+        "cap": "Customer link kholta hai, saamaan aur quantity chunta hai, aur WhatsApp pe poora order message apne aap ban jaata hai.",
+        "head": [
+          "Kaise hota hai?",
+          "3 steps"
+        ],
+        "items": [
+          [
+            "1",
+            "Link kholo"
+          ],
+          [
+            "2",
+            "Saamaan, quantity chuno"
+          ],
+          [
+            "3",
+            "WhatsApp message tayyar",
+            "Items, quantity aur total ke saath"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "और पेमेंट? ग्राहक सीधे आपको यू-पी-आई से देता है। बिक्री पर कोई कमीशन नहीं।",
+        "cap": "Aur payment? Customer seedha aapko UPI se deta hai. Bikri pe 0% commission.",
+        "head": [
+          "Payment",
+          "seedha aapko"
+        ],
+        "stat": "0%",
+        "sub": "sales commission",
+        "note": "Direct UPI payout"
+      }
+    ]
+  },
+  {
+    "id": "local-delivery",
+    "theme": "light",
+    "yt_title": "Ghar se delivery kaise sambhalein? 4 tips",
+    "caption": "Delivery ka plan pehle se banao! 🛵\n\n• Kitne km tak delivery, yeh tay karo\n• Delivery charge saaf likho\n• Delivery ke din aur time fix karo\n• Dukaan ke description mein sab likho\n\nSave karo, kaam aayega!",
+    "hashtags": "#GharDukaan #LocalDelivery #HomeBusiness #SmallBusinessIndia #SellerTips #GharSeBusiness",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "ऑर्डर तो आ गया, अब डिलीवरी कैसे होगी? पहले से एक आसान प्लान बना लीजिए।",
+        "cap": "Order toh aa gaya, ab delivery kaise hogi? Pehle se ek aasaan plan bana lo.",
+        "big": [
+          "Order aaya,",
+          "DELIVERY",
+          "ka plan?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "कितने किलोमीटर तक, डिलीवरी चार्ज कितना, किस दिन और किस समय, ये सब पहले तय कीजिए।",
+        "cap": "Kitne km tak, delivery charge kitna, kis din aur kis time, yeh sab pehle tay karo.",
+        "head": [
+          "Pehle tay",
+          "karo"
+        ],
+        "items": [
+          [
+            "1",
+            "Kitne km tak"
+          ],
+          [
+            "₹",
+            "Delivery charge",
+            "Saaf likho"
+          ],
+          [
+            "3",
+            "Din aur time fix"
+          ]
+        ]
+      },
+      {
+        "kind": "vs",
+        "vo": "हर ग्राहक को अलग से समझाने की जगह, ये सब अपनी दुकान के विवरण में लिख दीजिए।",
+        "cap": "Har customer ko alag se samjhane ki jagah, yeh sab apni dukaan ke description mein likh do.",
+        "head": [
+          "Ek baar likho,",
+          "sabko pata"
+        ],
+        "rows": [
+          [
+            "Har baar samjhao",
+            "Description mein likho"
+          ],
+          [
+            "Charge pe behes",
+            "Charge pehle se saaf"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sankranti-season",
+    "theme": "night",
+    "yt_title": "Makar Sankranti aa rahi hai: ghar se kya bechein",
+    "caption": "January mein Sankranti aur Lohri! 🪁\n\nGhar se bechne ke ideas:\n• Til-gud ki mithai\n• Rang-birangi patang\n• Gift ke liye chhote dabbe\n\nAbhi se products dukaan mein daalo aur last order date likho. Share karo us dost ke saath jo ghar se bechta hai!",
+    "hashtags": "#GharDukaan #MakarSankranti #Lohri #HomeBusiness #HomemadeSweets #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "जनवरी में मकर संक्रांति और लोहड़ी। तिल और गुड़ की चीज़ों की माँग बढ़ती है।",
+        "cap": "January mein Makar Sankranti aur Lohri. Til aur gud ki cheezon ki maang badhti hai.",
+        "big": [
+          "January mein",
+          "SANKRANTI",
+          "aur Lohri"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "तिल गुड़ की मिठाई, रंग बिरंगी पतंगें, और रिश्तेदारों को देने के लिए छोटे गिफ़्ट डिब्बे।",
+        "cap": "Til-gud ki mithai, rang-birangi patang, aur rishtedaron ko dene ke liye chhote gift dabbe.",
+        "head": [
+          "Inhe",
+          "bechiye"
+        ],
+        "items": [
+          [
+            "1",
+            "Til-gud ki mithai"
+          ],
+          [
+            "2",
+            "Rang-birangi patang"
+          ],
+          [
+            "3",
+            "Chhote gift dabbe",
+            "Rishtedaron ke liye"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "अभी से प्रोडक्ट दुकान में डालिए, फ़ोटो और दाम लगाइए, और आख़िरी ऑर्डर की तारीख़ लिखिए।",
+        "cap": "Abhi se products dukaan mein daalo, photo aur daam lagao, aur last order ki date likho.",
+        "head": [
+          "Taiyari",
+          "abhi se"
+        ],
+        "items": [
+          [
+            "1",
+            "Products daalo"
+          ],
+          [
+            "2",
+            "Photo aur daam"
+          ],
+          [
+            "3",
+            "Last order date"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "first-customers",
+    "theme": "light",
+    "yt_title": "Pehle 10 customer kahan se laayein?",
+    "caption": "Nayi dukaan, pehle customer kahan se? 🙌\n\n• Apne contacts ko link bhejo\n• Society aur family ke WhatsApp group\n• Roz WhatsApp status pe ek product\n• Har customer se kaho, aage share karein\n\nAapke pehle customer kaun the? Comment mein batao!",
+    "hashtags": "#GharDukaan #FirstCustomers #HomeBusiness #WhatsAppMarketing #SmallBusinessIndia #NewBusiness",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "नई दुकान खुली, पर पहले ग्राहक कहाँ से आएँगे? शुरुआत अपने लोगों से कीजिए।",
+        "cap": "Nayi dukaan khuli, par pehle customer kahan se aayenge? Shuruaat apne logon se karo.",
+        "big": [
+          "Pehle",
+          "10 CUSTOMER",
+          "kahan se?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "अपने कॉन्टैक्ट्स को लिंक भेजिए, सोसाइटी और फ़ैमिली ग्रुप में डालिए, और रोज़ स्टेटस पर एक प्रोडक्ट।",
+        "cap": "Apne contacts ko link bhejo, society aur family group mein daalo, aur roz status pe ek product.",
+        "head": [
+          "Yahan se",
+          "shuru karo"
+        ],
+        "items": [
+          [
+            "1",
+            "Apne contacts"
+          ],
+          [
+            "2",
+            "Society, family group"
+          ],
+          [
+            "3",
+            "Roz WhatsApp status",
+            "Ek product, ek photo"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "और हर खुश ग्राहक से कहिए, अपने एक दोस्त को लिंक भेजें। एक से दो, दो से चार।",
+        "cap": "Aur har khush customer se kaho, apne ek dost ko link bhejein. Ek se do, do se chaar.",
+        "head": [
+          "Har customer se",
+          "ek request"
+        ],
+        "stat": "1 se 2",
+        "sub": "Ek dost ko link bhejo",
+        "note": "Seedha WhatsApp pe share karo"
+      }
+    ]
   }
 ]
