@@ -128,5 +128,27 @@
    "youtube_error": "6afe6b70f6b6aa0cd49a52bb"
   },
   "slot": "am"
+ },
+ {
+  "id": "repeat-customers",
+  "date": "2026-11-20",
+  "posts": {
+   "instagram": "6afef531fd08883b6468527f",
+   "facebook": "6afef531fd08883b646852b7",
+   "youtube": "6afef53203dff68ab45910c4",
+   "status": "scheduled"
+  },
+  "slot": "pm"
+ },
+ {
+  "id": "december-gifting",
+  "date": "2026-11-21",
+  "posts": {
+   "instagram": "6afef540fd08883b64685c42",
+   "facebook": "6afef541443a2a9f2fbf4c52",
+   "youtube": "6afef542abf4ba608b728052",
+   "status": "scheduled"
+  },
+  "slot": "pm"
  }
 ]
