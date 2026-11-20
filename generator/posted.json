@@ -150,5 +150,14 @@
    "status": "scheduled"
   },
   "slot": "pm"
+ },
+ {
+  "id": "packaging-tips",
+  "date": "2026-11-20",
+  "posts": {
+   "instagram": "6affbc940f5eda1a57ba083e",
+   "facebook": "6affbca37b0a126ceba3b0c9"
+  },
+  "slot": "am"
  }
 ]
