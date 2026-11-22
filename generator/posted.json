@@ -159,5 +159,15 @@
    "facebook": "6affbca37b0a126ceba3b0c9"
   },
   "slot": "am"
+ },
+ {
+  "id": "customer-reviews",
+  "date": "2026-11-23",
+  "posts": {
+   "instagram": "6b03409bd864a01105ebe2f1",
+   "facebook": "6b03409cd5eabfb8ccd2772c",
+   "youtube": "6b03409d846b0ee907afb987"
+  },
+  "slot": "pm"
  }
 ]
