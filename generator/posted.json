@@ -169,5 +169,49 @@
    "youtube": "6b03409d846b0ee907afb987"
   },
   "slot": "pm"
+ },
+ {
+  "id": "combo-offers",
+  "date": "2026-11-23",
+  "posts": {
+   "instagram": "6b034323d864a01105ecffa5",
+   "facebook": "6b034324c72676f5e954e235",
+   "youtube": "6b034324846b0ee907b0de2a",
+   "status": "scheduled"
+  },
+  "slot": "am"
+ },
+ {
+  "id": "whatsapp-order-feature",
+  "date": "2026-11-24",
+  "posts": {
+   "instagram": "6b034349c72676f5e954ec43",
+   "facebook": "6b03434abf5d5a73b6b77ca0",
+   "youtube": "6b03434bc72676f5e954ec8e",
+   "status": "scheduled"
+  },
+  "slot": "am"
+ },
+ {
+  "id": "local-delivery",
+  "date": "2026-11-24",
+  "posts": {
+   "instagram": "6b03434bc72676f5e954ecef",
+   "facebook": "6b03434cd864a01105ed151e",
+   "youtube": "6b03434cd5eabfb8ccd3ac83",
+   "status": "scheduled"
+  },
+  "slot": "pm"
+ },
+ {
+  "id": "first-customers",
+  "date": "2026-11-25",
+  "posts": {
+   "instagram": "6b03434d846b0ee907b0ed6b",
+   "facebook": "6b03434ec72676f5e954ee64",
+   "youtube": "6b03434ebf5d5a73b6b77d59",
+   "status": "scheduled"
+  },
+  "slot": "am"
  }
 ]
