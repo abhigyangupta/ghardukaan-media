@@ -1318,6 +1318,202 @@
     ]
   },
   {
+    "id": "first-customers",
+    "theme": "light",
+    "yt_title": "Pehle 10 customer kahan se laayein?",
+    "caption": "Nayi dukaan, pehle customer kahan se? 🙌\n\n• Apne contacts ko link bhejo\n• Society aur family ke WhatsApp group\n• Roz WhatsApp status pe ek product\n• Har customer se kaho, aage share karein\n\nAapke pehle customer kaun the? Comment mein batao!",
+    "hashtags": "#GharDukaan #FirstCustomers #HomeBusiness #WhatsAppMarketing #SmallBusinessIndia #NewBusiness",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "नई दुकान खुली, पर पहले ग्राहक कहाँ से आएँगे? शुरुआत अपने लोगों से कीजिए।",
+        "cap": "Nayi dukaan khuli, par pehle customer kahan se aayenge? Shuruaat apne logon se karo.",
+        "big": [
+          "Pehle",
+          "10 CUSTOMER",
+          "kahan se?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "अपने कॉन्टैक्ट्स को लिंक भेजिए, सोसाइटी और फ़ैमिली ग्रुप में डालिए, और रोज़ स्टेटस पर एक प्रोडक्ट।",
+        "cap": "Apne contacts ko link bhejo, society aur family group mein daalo, aur roz status pe ek product.",
+        "head": [
+          "Yahan se",
+          "shuru karo"
+        ],
+        "items": [
+          [
+            "1",
+            "Apne contacts"
+          ],
+          [
+            "2",
+            "Society, family group"
+          ],
+          [
+            "3",
+            "Roz WhatsApp status",
+            "Ek product, ek photo"
+          ]
+        ]
+      },
+      {
+        "kind": "stat",
+        "vo": "और हर खुश ग्राहक से कहिए, अपने एक दोस्त को लिंक भेजें। एक से दो, दो से चार।",
+        "cap": "Aur har khush customer se kaho, apne ek dost ko link bhejein. Ek se do, do se chaar.",
+        "head": [
+          "Har customer se",
+          "ek request"
+        ],
+        "stat": "1 se 2",
+        "sub": "Ek dost ko link bhejo",
+        "note": "Seedha WhatsApp pe share karo"
+      }
+    ]
+  },
+  {
+    "id": "sardi-healthy-snacks",
+    "theme": "night",
+    "yt_title": "Sardi ke healthy snacks: ghar se bechne ke 4 ideas",
+    "caption": "Sardi mein log healthy aur garam cheezein dhoondhte hain! 🥜\n\nGhar se bechne ke ideas:\n• Gond ke laddoo\n• Panjiri\n• Dry fruit chikki\n• Soup premix\n\nChhote trial pack se shuru karo. Save karo aur us dost ko bhejo jo ghar se bechta hai!",
+    "hashtags": "#GharDukaan #WinterSnacks #HealthySnacks #HomeFood #HomeBusiness #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "सर्दी में लोग सेहत वाली, घर की बनी चीज़ें ढूँढते हैं। ये रहे चार आसान आइडिया।",
+        "cap": "Sardi mein log sehat wali, ghar ki bani cheezein dhoondhte hain. Yeh rahe 4 aasaan ideas.",
+        "big": [
+          "Sardi ke",
+          "HEALTHY SNACKS",
+          "4 ideas"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "गोंद के लड्डू, पंजीरी, ड्राई फ़्रूट चिक्की, और सूप प्रीमिक्स।",
+        "cap": "Gond ke laddoo, panjiri, dry fruit chikki, aur soup premix.",
+        "head": [
+          "Inhe",
+          "bechiye"
+        ],
+        "items": [
+          [
+            "1",
+            "Gond ke laddoo"
+          ],
+          [
+            "2",
+            "Panjiri"
+          ],
+          [
+            "3",
+            "Dry fruit chikki"
+          ],
+          [
+            "4",
+            "Soup premix",
+            "Tamatar, palak, mix veg"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "पहले छोटा ट्रायल पैक बनाइए, पैकेट पर बनाने की तारीख़ लिखिए, और लिंक व्हाट्सऐप स्टेटस पर लगाइए।",
+        "cap": "Pehle chhota trial pack banao, packet pe banane ki date likho, aur link WhatsApp Status pe lagao.",
+        "head": [
+          "Aise",
+          "shuru karo"
+        ],
+        "items": [
+          [
+            "1",
+            "Chhota trial pack"
+          ],
+          [
+            "2",
+            "Date likho"
+          ],
+          [
+            "3",
+            "Link Status pe"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kids-winter-vacation",
+    "theme": "light",
+    "yt_title": "Bachon ki winter chhuttiyan: ghar se kya bechein",
+    "caption": "December mein bachon ki chhuttiyan! 🧸\n\nGhar se bechne ke ideas:\n• DIY craft kit\n• Haath se bane soft toys\n• Bachon ke woollen sweater aur topi\n• Birthday return gifts\n\nKaunsa idea aapke kaam ka hai? Comment karo!",
+    "hashtags": "#GharDukaan #WinterVacation #KidsProducts #HandmadeInIndia #HomeBusiness #SmallBusinessIndia",
+    "scenes": [
+      {
+        "kind": "hook",
+        "vo": "दिसंबर में बच्चों की छुट्टियाँ। माता पिता घर बैठे बच्चों के लिए नई चीज़ें ढूँढते हैं।",
+        "cap": "December mein bachon ki chhuttiyan. Mata-pita ghar baithe bachon ke liye nayi cheezein dhoondhte hain.",
+        "big": [
+          "Bachon ki",
+          "CHHUTTIYAN",
+          "kya bechein?"
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "क्राफ़्ट किट, हाथ से बने सॉफ़्ट टॉय, बच्चों के ऊनी स्वेटर और टोपी, और बर्थडे रिटर्न गिफ़्ट।",
+        "cap": "Craft kit, haath se bane soft toys, bachon ke woollen sweater aur topi, aur birthday return gifts.",
+        "head": [
+          "Inhe",
+          "bechiye"
+        ],
+        "items": [
+          [
+            "1",
+            "DIY craft kit"
+          ],
+          [
+            "2",
+            "Handmade soft toys"
+          ],
+          [
+            "3",
+            "Woollen sweater, topi",
+            "Bachon ke size mein"
+          ],
+          [
+            "4",
+            "Return gifts",
+            "Birthday party ke liye"
+          ]
+        ]
+      },
+      {
+        "kind": "list",
+        "vo": "हर प्रोडक्ट पर उम्र और साइज़ लिखिए, साफ़ फ़ोटो लगाइए, और लिंक माता पिता के ग्रुप में भेजिए।",
+        "cap": "Har product pe umar aur size likho, saaf photo lagao, aur link parents ke group mein bhejo.",
+        "head": [
+          "Ek zaroori",
+          "tip"
+        ],
+        "items": [
+          [
+            "1",
+            "Umar aur size"
+          ],
+          [
+            "2",
+            "Saaf photo"
+          ],
+          [
+            "3",
+            "Parents group mein link"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "id": "sankranti-season",
     "theme": "night",
     "yt_title": "Makar Sankranti aa rahi hai: ghar se kya bechein",
@@ -1380,61 +1576,6 @@
             "Last order date"
           ]
         ]
-      }
-    ]
-  },
-  {
-    "id": "first-customers",
-    "theme": "light",
-    "yt_title": "Pehle 10 customer kahan se laayein?",
-    "caption": "Nayi dukaan, pehle customer kahan se? 🙌\n\n• Apne contacts ko link bhejo\n• Society aur family ke WhatsApp group\n• Roz WhatsApp status pe ek product\n• Har customer se kaho, aage share karein\n\nAapke pehle customer kaun the? Comment mein batao!",
-    "hashtags": "#GharDukaan #FirstCustomers #HomeBusiness #WhatsAppMarketing #SmallBusinessIndia #NewBusiness",
-    "scenes": [
-      {
-        "kind": "hook",
-        "vo": "नई दुकान खुली, पर पहले ग्राहक कहाँ से आएँगे? शुरुआत अपने लोगों से कीजिए।",
-        "cap": "Nayi dukaan khuli, par pehle customer kahan se aayenge? Shuruaat apne logon se karo.",
-        "big": [
-          "Pehle",
-          "10 CUSTOMER",
-          "kahan se?"
-        ]
-      },
-      {
-        "kind": "list",
-        "vo": "अपने कॉन्टैक्ट्स को लिंक भेजिए, सोसाइटी और फ़ैमिली ग्रुप में डालिए, और रोज़ स्टेटस पर एक प्रोडक्ट।",
-        "cap": "Apne contacts ko link bhejo, society aur family group mein daalo, aur roz status pe ek product.",
-        "head": [
-          "Yahan se",
-          "shuru karo"
-        ],
-        "items": [
-          [
-            "1",
-            "Apne contacts"
-          ],
-          [
-            "2",
-            "Society, family group"
-          ],
-          [
-            "3",
-            "Roz WhatsApp status",
-            "Ek product, ek photo"
-          ]
-        ]
-      },
-      {
-        "kind": "stat",
-        "vo": "और हर खुश ग्राहक से कहिए, अपने एक दोस्त को लिंक भेजें। एक से दो, दो से चार।",
-        "cap": "Aur har khush customer se kaho, apne ek dost ko link bhejein. Ek se do, do se chaar.",
-        "head": [
-          "Har customer se",
-          "ek request"
-        ],
-        "stat": "1 se 2",
-        "sub": "Ek dost ko link bhejo",
-        "note": "Seedha WhatsApp pe share karo"
       }
     ]
   }
