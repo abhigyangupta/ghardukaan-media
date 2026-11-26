@@ -224,5 +224,15 @@
    "status": "scheduled"
   },
   "slot": "pm"
+ },
+ {
+  "id": "kids-winter-vacation",
+  "date": "2026-11-26",
+  "posts": {
+   "instagram": "6b07a5779f6dda31ccbc93e4",
+   "facebook": "6b07a586a791bea1b24cc9b5",
+   "youtube": "6b07a596b96dd8d351852d13"
+  },
+  "slot": "am"
  }
 ]
