@@ -18,4 +18,6 @@ python3 make.py mark-posted <id> <date> '{"instagram":"<post id>", ...}'
   follows the voice track; `v2/engine.py` captures it frame by frame with headless Chromium (Playwright). A hand-built scene for one
   topic can live in `v2/custom/<topic_id>.html`. If v2 cannot run, `make.py` falls back to the old Pillow renderer (`render.py`);
   the output json says which `engine` was used. Force the old look with `GD_ENGINE=v1`.
+- Formats: each topic has a `format` (tips, skit, quiz, myth, demo; see `TOPICS_GUIDE.md`). `make.py next` rotates them so the
+  same format never runs twice in a row. `demo` scenes play real app footage cropped from `../tutorials`.
 - Twice a day: `python3 make.py status --date <d> --slot am|pm` prints `DONE <id>` or `TODO`; pass `--slot` to `mark-posted` too.

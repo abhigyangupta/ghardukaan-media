@@ -17,10 +17,20 @@ CTA = 'Dukaan Pro ₹99/month • Pehle 30 din FREE'
 
 def load(p, d): return json.load(open(p, encoding='utf-8')) if os.path.exists(p) else d
 
+FORMATS = ('tips', 'skit', 'quiz', 'myth', 'demo')
+
+def fmt(t): return t.get('format', 'tips')
+
 def next_topic():
-    done = {p['id'] for p in load(POSTED, [])}
-    for t in load(TOPICS, []):
-        if t['id'] not in done: return t
+    """Next unposted topic, skipping ahead so the same format never runs twice in a row (and,
+    when possible, not one of the last 2 formats used)."""
+    posted = load(POSTED, []); done = {p['id'] for p in posted}; topics = load(TOPICS, [])
+    by_id = {t['id']: t for t in topics}
+    recent = [fmt(by_id[p['id']]) for p in posted[-2:] if p['id'] in by_id][::-1]
+    todo = [t for t in topics if t['id'] not in done]
+    for avoid in (recent[:2], recent[:1], []):
+        for t in todo:
+            if fmt(t) not in avoid: return t
     raise SystemExit('NO_TOPICS_LEFT: add new topics to topics.json (see TOPICS_GUIDE.md)')
 
 def captions(t):
@@ -34,6 +44,18 @@ def captions(t):
             'youtube': f'{body}\n\n{CTA}\n👉 {link("youtube", "shorts")}\n\n{tags} #Shorts',
             'youtube_title': title[:100]}
 
+def v1_compat(t):
+    """The old Pillow renderer only knows hook/list/stat/vs; map the newer scene kinds onto those."""
+    out = []
+    for sc in t['scenes']:
+        k = sc['kind']; base = {'kind': 'list', 'vo': sc['vo'], 'cap': sc['cap']}
+        if k == 'chat': out.append({**base, 'head': sc.get('head') or ['Customer', 'ki baat'], 'items': [[str(j + 1), m[1][:34]] for j, m in enumerate(sc['msgs'])]})
+        elif k == 'quiz': out.append({**base, 'head': ['Quiz', sc['q'][:28]], 'items': [[str(j + 1), o + (' (sahi)' if sc.get('reveal') and j == sc.get('ans') else '')] for j, o in enumerate(sc['opts'])]})
+        elif k == 'myth': out.append({'kind': 'vs', 'vo': sc['vo'], 'cap': sc['cap'], 'head': ['Myth ya', 'Sach?'], 'rows': [[sc['myth'], sc['fact']]]})
+        elif k == 'demo': out.append({**base, 'head': sc['head'], 'items': [[str(j + 1), x] for j, x in enumerate(sc.get('steps') or [sc['head'][1]])]})
+        else: out.append(sc)
+    return {**t, 'scenes': out}
+
 def build(t, date, preview=False):
     from voice import make_voiceover
     from render import Video, OUTRO
@@ -41,7 +63,9 @@ def build(t, date, preview=False):
     outdir = os.path.join(REPO, date); os.makedirs(outdir, exist_ok=True)
     work = os.path.join(HERE, '.cache', 'work'); os.makedirs(work, exist_ok=True)
     lines = [s['vo'] for s in t['scenes']] + [OUTRO['vo']]
-    vo = os.path.join(work, 'vo.wav'); marks, total = make_voiceover(lines, vo)
+    # A quiz question gets 3.2 s of silence after it for the on-screen 3-2-1 countdown.
+    pauses = [3.2 if s.get('kind') == 'quiz' and not s.get('reveal') else 0 for s in t['scenes']] + [0]
+    vo = os.path.join(work, 'vo.wav'); marks, total = make_voiceover(lines, vo, pauses)
     silent = os.path.join(work, 'video.mp4'); engine = 'v2'
     times = [round((m['start'] + m['end']) / 2 + 0.6, 2) for m in marks]
     # v2 = animated presenter (v2/engine.py). Falls back to the old Pillow renderer if it cannot run.
@@ -53,7 +77,7 @@ def build(t, date, preview=False):
         else: v.render(silent)
     except Exception as e:
         print(f'v2 renderer unavailable ({e}); using v1', file=sys.stderr); engine = 'v1'
-        v = Video(t, marks, total)
+        v = Video(v1_compat(t), marks, total)
         if preview:
             for i, ts in enumerate(times): v.frame(ts).resize((540, 960)).save(os.path.join(work, f'preview_{i}.png'))
         else: v.render(silent)
@@ -67,7 +91,7 @@ def build(t, date, preview=False):
           '[duck][vo]amix=inputs=2:normalize=0,alimiter=limit=0.95[a]')
     subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', silent, '-i', mus, '-i', vo, '-filter_complex', fc, '-map', '0:v', '-map', '[a]',
                     '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', str(v.dur), '-movflags', '+faststart', out], check=True)
-    meta = {'id': t['id'], 'date': date, 'engine': engine, 'video': os.path.relpath(out, REPO), 'duration': v.dur,
+    meta = {'id': t['id'], 'date': date, 'format': fmt(t), 'engine': engine, 'video': os.path.relpath(out, REPO), 'duration': v.dur,
             'thumbnail_ms': int(((marks[0]['start'] + marks[0]['end']) / 2 + 0.4) * 1000), **captions(t)}
     json.dump(meta, open(out.replace('.mp4', '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(json.dumps(meta, ensure_ascii=False))

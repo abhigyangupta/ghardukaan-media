@@ -71,6 +71,50 @@ html,body{width:1080px;height:1920px;overflow:hidden;font-family:PJS,PJSx,sans-s
 #oline{left:0;width:1080px;top:1268px;text-align:center;font-weight:600;font-size:38px;color:#6b5a50}
 .conf{position:absolute;left:540px;top:520px;width:22px;height:30px;border-radius:5px;opacity:0}
 #bar{left:0;top:0;height:10px;width:1080px;background:var(--h2);transform-origin:0 50%;transform:scaleX(0);opacity:.9}
+#chip em{font-style:normal;background:var(--acc);color:var(--acct);padding:6px 20px;border-radius:999px;font-size:30px;margin-left:4px}
+/* skit: WhatsApp chat between a customer and the seller */
+.chat{left:90px;width:900px;top:440px;height:720px;border-radius:44px;overflow:hidden;background:#EFE7DB;box-shadow:0 14px 0 var(--shadow)}
+.chat .bar{height:112px;background:#075E54;color:#fff;display:flex;align-items:center;gap:22px;padding:0 30px;font-weight:700;font-size:40px}
+.chat .av{width:68px;height:68px;border-radius:50%;background:#D9C3A5;display:grid;place-items:center;font-size:34px;color:#5b4636;font-weight:800;flex:none}
+.chat .bar small{display:block;font-size:26px;font-weight:500;opacity:.8}
+.chat .body{position:absolute;left:0;right:0;top:112px;bottom:0;background-image:radial-gradient(rgba(120,90,60,.10) 2px,transparent 2.4px);background-size:36px 36px}
+.msg{position:absolute;max-width:700px;padding:18px 28px 36px;border-radius:28px;font-size:43px;font-weight:600;line-height:1.24;color:#1E1B13;box-shadow:0 3px 0 rgba(0,0,0,.08)}
+.msg.c{left:28px;background:#fff;border-top-left-radius:6px}
+.msg.s{right:28px;background:#D9FDD3;border-top-right-radius:6px}
+.msg i{position:absolute;right:20px;bottom:6px;font-style:normal;font-size:22px;color:#6b7b70;font-weight:500}
+/* quiz */
+.qcard{left:68px;width:944px;top:290px;padding:34px 44px 40px;border-radius:40px;background:var(--paper);color:var(--ink);box-shadow:0 12px 0 var(--shadow);text-align:center}
+.qcard small{display:inline-block;background:var(--acc);color:var(--acct);font-weight:800;font-size:32px;padding:8px 28px;border-radius:999px;margin-bottom:16px}
+.qcard p{font-weight:800;font-size:64px;line-height:1.16;letter-spacing:-1px}
+.opt{position:absolute;left:68px;width:944px;height:124px;border-radius:30px;background:var(--paper);color:var(--ink);display:flex;align-items:center;gap:26px;padding:0 30px;box-shadow:0 8px 0 var(--shadow);font-weight:700;font-size:44px;border:6px solid transparent}
+.opt b{width:80px;height:80px;border-radius:50%;background:var(--acc);color:var(--acct);display:grid;place-items:center;font-size:42px;flex:none}
+.opt span{flex:1;min-width:0}
+.opt u{text-decoration:none;font-size:28px;font-weight:800;color:#fff;background:var(--ok);padding:8px 18px;border-radius:999px;opacity:0;flex:none}
+.why{left:68px;width:944px;display:flex;justify-content:center}
+.why div{font-weight:700;font-size:38px;line-height:1.25;text-align:center;padding:18px 32px;border-radius:30px;background:var(--notebg);border:1.5px solid var(--chipline)}
+.ring{left:150px;top:860px;width:300px;height:300px}
+.ring svg{width:300px;height:300px}
+.ring svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.ring .num{position:absolute;inset:0;display:grid;place-items:center;font-weight:800;font-size:160px;color:var(--h2)}
+/* myth vs sach */
+.mcard{left:90px;width:900px;border-radius:40px;padding:36px 46px 42px;color:var(--ink);box-shadow:0 12px 0 var(--shadow)}
+.mcard small{font-weight:800;font-size:34px;letter-spacing:3px}
+.mcard p{position:relative;font-weight:800;font-size:54px;line-height:1.18;margin-top:10px;letter-spacing:-.5px}
+.mcard.m{top:300px;background:#FDE8E4}.mcard.m small{color:#BE3C28}
+.mcard.f{background:#E2F4E8}.mcard.f small{color:var(--ok)}
+.strike{position:absolute;left:-10px;right:-10px;top:52%;height:9px;border-radius:9px;background:#D4301F;transform-origin:0 50%;transform:scaleX(0)}
+.stamp{position:absolute;right:34px;top:-44px;border:8px solid #D4301F;color:#D4301F;font-weight:800;font-size:60px;padding:2px 26px;border-radius:18px;transform:rotate(-10deg);background:#fff}
+.stamp.g{border-color:var(--ok);color:var(--ok);transform:rotate(8deg)}
+/* app demo: real screen recording in a phone frame */
+.phone{left:520px;top:290px;width:500px;height:1076px;border-radius:66px;background:#141414;padding:18px;box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.phone .scr{width:464px;height:1040px;border-radius:50px;overflow:hidden;background:#fff}
+.phone img{width:464px;height:1040px;display:block}
+.dhead{left:56px;width:440px;top:330px}
+.dhead .l1{font-weight:600;font-size:46px;line-height:1.15;opacity:.94}
+.dhead .l2{font-weight:800;font-size:72px;color:var(--h2);line-height:1.08;letter-spacing:-2px;margin-top:8px}
+.dsteps{left:56px;width:440px;top:620px;display:flex;flex-direction:column;gap:16px}
+.dsteps div{display:flex;align-items:center;gap:16px;font-weight:700;font-size:36px;line-height:1.15}
+.dsteps b{width:58px;height:58px;border-radius:50%;background:var(--acc);color:var(--acct);display:grid;place-items:center;font-size:30px;flex:none}
 </style></head><body>
 <div id="bg" class="abs"></div>
 <div id="b1" class="abs blob"></div><div id="b2" class="abs blob"></div><div id="b3" class="abs blob"></div>
@@ -130,7 +174,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;font-family:PJS,PJSx,sans-s
 <script src="../.cache/node_modules/gsap/dist/gsap.min.js"></script>
 <script>
 const TOPIC = window.__TOPIC, M = window.__MARKS, DUR = window.__DUR, ENV = window.__ENV || [], TH = window.__THEME, OUTRO = window.__OUTRO;
-const SC = TOPIC.scenes, N = SC.length;                       // marks has N + 1 entries (last = outro)
+const SC = TOPIC.scenes, N = SC.length, CLIPS = window.__CLIPS || {}, FMT = TOPIC.format || 'tips';                       // marks has N + 1 entries (last = outro)
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = s => String(s == null ? '' : s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
 const words = s => esc(s).split(' ').map(w => `<span class="w">${w} </span>`).join('');
@@ -169,6 +213,21 @@ const els = SC.map((sc, i) => {
   } else if (sc.kind === 'vs') {
     h = head(sc.head) + sc.rows.map((r, j) => `<div class="vsc b" style="top:${470 + j * 222}px"><small>Pehle</small><p>${esc(r[0])}</p></div>
       <div class="vsc g" style="top:${470 + j * 222}px"><small>Ab</small><p>${esc(r[1])}</p></div>`).join('');
+  } else if (sc.kind === 'chat') {
+    h = head(sc.head || ['', '']) + `<div class="abs chat"><div class="bar"><div class="av">C</div><div>${esc(sc.who || 'Customer')}<small>online</small></div></div><div class="body">`
+      + sc.msgs.map((mm, j) => `<div class="msg ${mm[0] === 's' ? 's' : 'c'}">${esc(mm[1])}<i>${esc(mm[2] || ('7:' + String(12 + j * 2).padStart(2, '0') + ' pm'))}</i></div>`).join('') + '</div></div>';
+  } else if (sc.kind === 'quiz') {
+    h = `<div class="abs qcard"><small>${esc(sc.label || (sc.reveal ? 'Sahi jawab' : 'Sawaal'))}</small><p>${esc(sc.q)}</p></div>`
+      + sc.opts.map((o, j) => `<div class="opt" data-j="${j}"><b>${'ABC'[j]}</b><span class="fit">${esc(o)}</span><u>SAHI</u></div>`).join('')
+      + (sc.why ? `<div class="abs why"><div>${esc(sc.why)}</div></div>` : '')
+      + (sc.reveal ? '' : `<div class="abs ring"><svg viewBox="0 0 230 230"><circle cx="115" cy="115" r="100" fill="var(--paper)" stroke="var(--chipline)" stroke-width="14"/><circle class="arc" cx="115" cy="115" r="100" fill="none" stroke="var(--acc)" stroke-width="14" stroke-linecap="round" stroke-dasharray="628.3" stroke-dashoffset="0"/></svg><div class="num">3</div></div>`);
+  } else if (sc.kind === 'myth') {
+    h = `<div class="abs mcard m"><small>MYTH</small><p>${esc(sc.myth)}<span class="strike"></span></p><div class="stamp">GALAT</div></div>`
+      + `<div class="abs mcard f"><small>SACH</small><p>${esc(sc.fact)}</p><div class="stamp g">SAHI</div></div>`;
+  } else if (sc.kind === 'demo') {
+    h = `<div class="abs dhead"><div class="l1">${words(sc.head[0] || '')}</div><div class="l2">${words(sc.head[1] || '')}</div></div>`
+      + (sc.steps ? `<div class="abs dsteps">${sc.steps.map((st, j) => `<div><b>${j + 1}</b><span>${esc(st)}</span></div>`).join('')}</div>` : '')
+      + `<div class="abs phone"><div class="scr"><img></div></div>`;
   } else {   // stat
     const neg = String(sc.stat).trim().startsWith('-');
     h = head(sc.head, 'shead') + `<div class="abs bubble"><div class="n fit" style="color:${neg ? 'var(--bad)' : 'var(--ok)'}">${esc(sc.stat)}</div><div class="s">${esc(sc.sub || '')}</div></div>`
@@ -181,6 +240,8 @@ const capEls = CAPS.map(c => { const d = document.createElement('div'); d.classN
   const ws = c.split(' '); const tot = ws.reduce((a, w) => a + w.length + 1, 0); let acc = 0;
   d.innerHTML = ws.map(w => { const a = acc / tot; acc += w.length + 1; return `<span data-a="${a}" data-b="${acc / tot}">${esc(w)}</span>`; }).join(' ');
   $('#capwrap').appendChild(d); return d; });
+const FLABEL = { skit: 'Customer ki baat', quiz: 'Quiz time', myth: 'Myth ya Sach?', demo: 'App demo' };
+if (FLABEL[FMT]) $('#chip div').insertAdjacentHTML('beforeend', `<em>${FLABEL[FMT]}</em>`);
 const cols = ['#CC5705', '#FFC454', '#15803D', '#9E3D00', '#F29E4C'];
 for (let i = 0; i < 46; i++) { const c = document.createElement('div'); c.className = 'conf'; c.style.background = cols[i % 5]; $('#confs').appendChild(c); }
 
@@ -201,14 +262,23 @@ const drawChar = (t) => {
   const s = P.smile, yc = -7 * s, w = 27 - o * 5;
   $('#mouth').setAttribute('d', `M${-w} ${yc}Q0 ${6 * s - 5 * o} ${w} ${yc}Q0 ${17 * s + 46 * o} ${-w} ${yc}Z`);
 };
-const POSE = { hook: { cx: 540, s: 1.12 }, list: { cx: 540, s: .8 }, vs: { cx: 540, s: .8 }, stat: { cx: 250, s: 1.2 } };
+const POSE = { hook: { cx: 540, s: 1.12 }, list: { cx: 540, s: .8 }, vs: { cx: 540, s: .8 }, stat: { cx: 250, s: 1.2 },
+  chat: { cx: 830, s: .6 }, quiz: { cx: 830, s: .5 }, myth: { cx: 540, s: .55 }, demo: { cx: 250, s: .62 } };
 const REST = { aR: 8, eR: 0, aL: -8, eL: 0, head: 0, by: 0, eye: 1, tilt: 0, browY: 0, happy: 0, smile: .7 };
 
 // ---------- timeline ----------
 gsap.defaults({ ease: 'power3.out' });
+const DEMOS = [];
 const tl = gsap.timeline({ paused: true });
 function build() {
-  $$('.fit').forEach(el => fit(el, el.closest('.card') ? el.closest('.tx').clientWidth : el.closest('.bubble') ? 510 : 960));
+  $$('.fit').forEach(el => fit(el, el.closest('.card') ? el.closest('.tx').clientWidth : el.closest('.bubble') ? 510 : el.closest('.opt') ? 640 : 960));
+  // stack the variable-height pieces of the new formats
+  SC.forEach((sc, i) => { const el = els[i]; el.style.visibility = 'visible';
+    if (sc.kind === 'chat') { let y = 26; $$('.msg', el).forEach(m => { m.style.top = y + 'px'; y += m.offsetHeight + 22; }); $('.chat', el).style.height = Math.min(820, 112 + y + 14) + 'px'; }
+    if (sc.kind === 'quiz') { let y = $('.qcard', el).offsetTop + $('.qcard', el).offsetHeight + 40;
+      $$('.opt', el).forEach(o => { o.style.top = y + 'px'; y += 124 + 22; }); if ($('.why', el)) $('.why', el).style.top = (y + 14) + 'px'; }
+    if (sc.kind === 'myth') { const m = $('.mcard.m', el); $('.mcard.f', el).style.top = (m.offsetTop + m.offsetHeight + 70) + 'px'; }
+    el.style.visibility = 'hidden'; });
   gsap.set(['#ourl', '#ofree'], { xPercent: -50 });
   gsap.set('#charw', { transformOrigin: '50% 100%', x: POSE[SC[0].kind].cx - 440, scale: POSE[SC[0].kind].s });
   tl.from('#chip', { y: -120, autoAlpha: 0, duration: .6 }, 0).from('#char', { y: 900, duration: .7, ease: 'back.out(1.2)' }, .05);
@@ -253,6 +323,60 @@ function build() {
           .from(G, { x: 300, autoAlpha: 0, duration: .45, ease: 'back.out(1.4)' }, tg)
           .to(B, { opacity: .55, duration: .3 }, tg)
           .to(P, { tilt: 0, smile: 1, happy: 1, aL: -8, eL: 0, aR: -150, eR: -20, duration: .35, ease: 'back.out(1.8)' }, tg); });
+    } else if (sc.kind === 'chat') {
+      const ms = q('.msg'), n = ms.length;
+      tl.from(q('.chat'), { y: 140, scale: .9, autoAlpha: 0, duration: .5, ease: 'back.out(1.4)' }, a + .05);
+      ms.forEach((mm, j) => { const ta = m.start + .25 + (dur - .4) * j / n, seller = mm.classList.contains('s');
+        tl.from(mm, { x: seller ? 120 : -120, scale: .6, autoAlpha: 0, transformOrigin: seller ? '100% 0%' : '0% 0%', duration: .4, ease: 'back.out(1.8)' }, ta)
+          .to(P, seller ? { happy: 1, smile: 1, tilt: 0, aR: -150, eR: -20, browY: -6, duration: .3, ease: 'back.out(1.7)' }
+                        : { happy: 0, smile: .3, tilt: 8, aR: 8, eR: 0, aL: 62, eL: 86, browY: -10, duration: .3 }, ta); });
+    } else if (sc.kind === 'quiz') {
+      const os = q('.opt'), ok = sc.ans | 0;
+      tl.from(q('.qcard'), { y: -80, scale: .85, autoAlpha: 0, duration: .5, ease: 'back.out(1.6)' }, a + .05);
+      if (!sc.reveal) {
+        os.forEach((o, j) => tl.from(o, { x: j % 2 ? 300 : -300, autoAlpha: 0, duration: .45, ease: 'back.out(1.5)' }, a + .5 + j * .22));
+        tl.to(P, { aR: -62, eR: -86, aL: 62, eL: 86, head: -7, browY: -12, smile: .2, duration: .4, ease: 'back.out(1.8)' }, a + .4);
+        const r = q('.ring')[0], num = $('.num', r), arc = $('.arc', r), c0 = m.end + .05;
+        tl.from(r, { scale: 0, autoAlpha: 0, duration: .35, ease: 'back.out(2)' }, c0 - .3)
+          .fromTo(arc, { strokeDashoffset: 0 }, { strokeDashoffset: 628.3, duration: 3, ease: 'none', immediateRender: false }, c0);
+        [3, 2, 1].forEach((k, j) => tl.set(num, { textContent: k }, c0 + j)
+          .fromTo(num, { scale: 1.6 }, { scale: 1, duration: .35, ease: 'back.out(2)', immediateRender: false }, c0 + j));
+        tl.set(num, { textContent: 3 }, 0);
+        tl.to(P, { head: 6, duration: .5, yoyo: true, repeat: 3, ease: 'sine.inOut' }, c0);
+      } else {
+        const tr = m.start + Math.min(.9, dur * .2);
+        tl.from(os, { autoAlpha: 0, duration: .3 }, a + .2)
+          .to(os.filter((o, j) => j !== ok), { opacity: .4, scale: .96, duration: .35 }, tr)
+          .to(os[ok], { borderColor: '#15803D', backgroundColor: '#E2F4E8', duration: .25 }, tr)
+          .fromTo(os[ok], { scale: 1 }, { scale: 1.06, duration: .2, yoyo: true, repeat: 1, immediateRender: false }, tr)
+          .to($('u', os[ok]), { opacity: 1, duration: .25 }, tr + .1)
+          .to('#greentint', { opacity: 1, duration: .5 }, tr).to('#greentint', { opacity: 0, duration: .4 }, b)
+          .to(P, { aR: -158, eR: -18, aL: 158, eL: 18, happy: 1, smile: 1, duration: .4, ease: 'back.out(2)' }, tr)
+          .to(P, { by: -18, duration: .16, yoyo: true, repeat: 3, ease: 'power2.out' }, tr);
+        if (q('.why').length) tl.from(q('.why'), { y: 40, autoAlpha: 0, duration: .45, ease: 'back.out(1.6)' }, m.start + dur * .45);
+      }
+    } else if (sc.kind === 'myth') {
+      const tm = m.start + dur * .3, tf = m.start + dur * .52;
+      tl.from(q('.mcard.m'), { y: -60, autoAlpha: 0, duration: .45, ease: 'back.out(1.5)' }, a + .05)
+        .to(P, { tilt: 9, smile: -.3, aL: 62, eL: 86, aR: -62, eR: -86, duration: .35 }, a + .2)
+        .from(q('.mcard.m .stamp'), { scale: 3, autoAlpha: 0, duration: .25, ease: 'power4.in' }, tm)
+        .fromTo('#stage', { y: 0 }, { y: 10, duration: .05, yoyo: true, repeat: 5, ease: 'none', immediateRender: false }, tm + .25)
+        .to(q('.strike'), { scaleX: 1, duration: .4, ease: 'power2.inOut' }, tm + .3)
+        .to('#redtint', { opacity: 1, duration: .3 }, tm).to('#redtint', { opacity: 0, duration: .4 }, tf)
+        .to(P, { head: 6, duration: .12, yoyo: true, repeat: 5, ease: 'sine.inOut' }, tm + .1)
+        .from(q('.mcard.f'), { y: 120, scale: .9, autoAlpha: 0, duration: .5, ease: 'back.out(1.6)' }, tf)
+        .from(q('.mcard.f .stamp'), { scale: 3, autoAlpha: 0, duration: .25, ease: 'power4.in' }, tf + .6)
+        .to('#greentint', { opacity: 1, duration: .4 }, tf + .6).to('#greentint', { opacity: 0, duration: .4 }, b)
+        .to(P, { tilt: 0, smile: 1, happy: 1, aL: -8, eL: 0, aR: -150, eR: -20, browY: -6, duration: .35, ease: 'back.out(1.8)' }, tf + .6);
+    } else if (sc.kind === 'demo') {
+      tl.from(q('.phone'), { x: 600, rotation: 8, duration: .6, ease: 'back.out(1.2)' }, a)
+        .from(q('.dhead .l1 .w'), { y: 50, autoAlpha: 0, duration: .4, stagger: .07 }, a + .1)
+        .from(q('.dhead .l2 .w'), { y: 70, autoAlpha: 0, rotation: 6, duration: .45, ease: 'back.out(1.8)', stagger: .1 }, a + .3)
+        .to(P, { aR: -112, eR: -42, aL: -8, eL: 0, smile: .9, duration: .45, ease: 'back.out(1.6)' }, a + .3);
+      const st = q('.dsteps div'), n = st.length;
+      st.forEach((d, j) => tl.from(d, { x: -80, autoAlpha: 0, duration: .4, ease: 'back.out(1.6)' }, m.start + .4 + (dur - .6) * j / Math.max(1, n))
+        .from($('b', d), { scale: 0, duration: .4, ease: 'back.out(2)' }, m.start + .5 + (dur - .6) * j / Math.max(1, n)));
+      DEMOS.push({ img: q('.phone img')[0], a, clip: CLIPS[i] });
     } else {   // stat
       const n = q('.bubble .n')[0], np = numParts(sc.stat), tp = a + .55;
       tl.from(q('.bubble'), { scale: 0, autoAlpha: 0, transformOrigin: '0% 65%', duration: .45, ease: 'back.out(1.8)' }, a + .4)
@@ -311,7 +435,14 @@ window.seek = (t) => {
   capEls.forEach((el, i) => { const p = (t - M[i].start) / (M[i].end - M[i].start);
     $$('span', el).forEach(s => { s.className = p >= +s.dataset.b ? 'on' : (p >= +s.dataset.a ? 'now' : ''); }); });
   drawChar(t);
+  // demo scenes: swap in the screen-recording frame for this moment
+  return Promise.all(DEMOS.filter(d => d.clip).map(d => {
+    const k = Math.max(0, Math.min(d.clip[1] - 1, Math.floor((t - d.a) * 30)));
+    const src = 'file://' + d.clip[0] + '/' + String(k + 1).padStart(4, '0') + '.jpg';
+    if (d.img.dataset.src === src) return 0;
+    d.img.dataset.src = src; d.img.src = src; return d.img.decode().catch(() => 0);
+  }));
 };
 window.ready = document.fonts.load('800 40px PJS').then(() => Promise.all(['500', '600', '700', '800'].flatMap(w => [document.fonts.load(w + ' 40px PJS'), document.fonts.load(w + ' 40px PJSx', '₹')])))
-  .then(() => Promise.all([...document.images].map(i => i.decode().catch(() => 0)))).then(() => { build(); seek(0); return true; });
+  .then(() => Promise.all([...document.images].map(i => i.decode().catch(() => 0)))).then(async () => { build(); await seek(0); return true; });
 </script></body></html>

@@ -24,9 +24,29 @@ class Animation:
         custom = os.path.join(V2, 'custom', topic['id'] + '.html')
         self.html = custom if os.path.exists(custom) else os.path.join(V2, 'scene.html')
         th = {k: v for k, v in THEMES[topic.get('theme', 'light')].items() if isinstance(v, tuple)}
-        data = {'__TOPIC': {'id': topic['id'], 'scenes': topic['scenes']}, '__MARKS': marks, '__DUR': self.dur,
+        clips = self._clips(topic, marks)
+        data = {'__TOPIC': {'id': topic['id'], 'format': topic.get('format', 'tips'), 'scenes': topic['scenes']}, '__CLIPS': clips, '__MARKS': marks, '__DUR': self.dur,
                 '__ENV': envelope(vo_wav), '__THEME': th, '__OUTRO': OUTRO}
         self.init = ''.join(f'window.{k}={json.dumps(v, ensure_ascii=False)};' for k, v in data.items())
+
+    @staticmethod
+    def _clips(topic, marks):
+        """'demo' scenes show a real app screen recording inside a phone frame. The phone screen is cropped from the
+        finished tutorial videos in ../tutorials (1080x1920, phone screen at x 160-920, y 215-1920) and written as
+        JPEG frames, which the page swaps in frame by frame. Returns {scene index: [frame dir, frame count]}."""
+        out = {}
+        for i, sc in enumerate(topic['scenes']):
+            if sc.get('kind') != 'demo': continue
+            src = os.path.join(os.path.dirname(V2), '..', 'tutorials', sc['clip'] + '.mp4')
+            d = os.path.join(os.path.dirname(V2), '.cache', 'clips', f"{topic['id']}_{i}")
+            subprocess.run(['rm', '-rf', d]); os.makedirs(d)
+            dur = marks[i + 1]['start'] - marks[i]['start'] + 1.0
+            subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-ss', str(sc.get('from', 0)), '-t', str(dur), '-i', src,
+                            '-vf', f'crop=760:1705:160:215,scale=464:1040,fps={FPS}', '-q:v', '3', os.path.join(d, '%04d.jpg')], check=True)
+            n = len([f for f in os.listdir(d) if f.endswith('.jpg')])
+            if not n: raise RuntimeError(f'no frames from clip {sc["clip"]}')
+            out[i] = [os.path.abspath(d), n]
+        return out
 
     def _page(self, p):
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': 1080, 'height': 1920}, device_scale_factor=1)

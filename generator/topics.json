@@ -1640,50 +1640,35 @@
           ]
         ]
       }
-    ]
+    ],
+    "format": "tips"
   },
   {
     "id": "upi-payment-check",
-    "theme": "night",
-    "yt_title": "UPI payment aaya ya nahi? Order bhejne se pehle check karo",
-    "caption": "GharDukaan pe customer seedha aapko UPI se pay karta hai. 0% commission!\n\nBas dhyan rakho:\n• Screenshot nahi, apna bank app dekho\n• Amount aur naam milao\n• Phir hi order pack karo\n\nYe tip un dosto ko bhejo jo online bechte hain.",
-    "hashtags": "#GharDukaan #UPI #OnlinePayment #HomeBusiness #SellerTips #SmallBusinessIndia",
+    "format": "myth",
+    "theme": "rose",
+    "yt_title": "Screenshot aaya matlab paisa aaya? Myth ya Sach",
+    "caption": "Customer ne payment ka screenshot bheja... to kya paisa aa gaya? 🤔\n\nNahi! Screenshot asli bhi ho sakta hai aur nakli bhi.\n\n• Apna bank ya UPI app kholo\n• Amount aur naam milao\n• Paisa dikhe, tabhi order pack karo\n\nYe tip un dosto ko bhejo jo online bechte hain.",
+    "hashtags": "#GharDukaan #UPI #UPIPayment #HomeBusiness #SmallBusinessIndia #SellerTips",
     "scenes": [
       {
-        "kind": "hook",
-        "vo": "घरदुकान पर ग्राहक सीधे आपको यूपीआई से पैसे भेजता है। बीच में कोई कमीशन नहीं।",
-        "cap": "GharDukaan pe customer seedha aapko UPI se paise bhejta hai. Beech mein koi commission nahi.",
-        "big": [
-          "Paisa seedha",
-          "AAPKO",
-          "UPI se"
-        ]
-      },
-      {
-        "kind": "stat",
-        "vo": "हर बिक्री पर शून्य प्रतिशत कमीशन। पूरा पैसा आपके खाते में आता है।",
-        "cap": "Har bikri pe 0% commission. Poora paisa aapke khaate mein aata hai.",
-        "head": [
-          "Sales",
-          "commission"
-        ],
-        "stat": "0%",
-        "sub": "Har order pe",
-        "note": "Direct UPI payout"
+        "kind": "myth",
+        "myth": "Customer ne screenshot bheja, matlab paisa aa gaya",
+        "fact": "Apna bank app dekho. Paisa dikhe, tabhi pack karo.",
+        "vo": "बहुत लोग सोचते हैं, ग्राहक ने स्क्रीनशॉट भेजा, मतलब पैसा आ गया। ये गलत है! अपना बैंक ऐप खोलकर देखिए, पैसा दिखे तभी ऑर्डर पैक कीजिए।",
+        "cap": "Screenshot aaya matlab paisa aaya? Galat! Apna bank app kholo, paisa dikhe tabhi order pack karo."
       },
       {
         "kind": "list",
-        "vo": "पर ऑर्डर भेजने से पहले अपना बैंक ऐप देखिए, रकम मिलाइए, फिर पैक कीजिए।",
-        "cap": "Par order bhejne se pehle apna bank app dekho, amount milao, phir pack karo.",
         "head": [
-          "Bhejne se",
-          "pehle"
+          "Order bhejne se pehle",
+          "3 check"
         ],
         "items": [
           [
             "1",
-            "Bank app dekho",
-            "Sirf screenshot nahi"
+            "Bank app kholo",
+            "Screenshot nahi"
           ],
           [
             "2",
@@ -1691,41 +1676,67 @@
           ],
           [
             "3",
-            "Phir pack karo"
+            "Naam milao"
           ]
-        ]
+        ],
+        "vo": "बैंक ऐप खोलिए, अमाउंट मिलाइए, और भेजने वाले का नाम मिलाइए।",
+        "cap": "Bank app kholo, amount milao, aur bhejne wale ka naam milao."
+      },
+      {
+        "kind": "stat",
+        "head": [
+          "GharDukaan pe",
+          "commission"
+        ],
+        "stat": "0%",
+        "sub": "Poora paisa seedha aapko",
+        "vo": "और घरदुकान पर हर बिक्री पर ज़ीरो प्रतिशत कमीशन। पूरा पैसा सीधे आपको।",
+        "cap": "Aur GharDukaan pe har bikri pe 0% commission. Poora paisa seedha aapko."
       }
     ]
   },
   {
     "id": "stock-update",
-    "theme": "light",
-    "yt_title": "Stock khatam? Dukaan mein turant update karo",
-    "caption": "Customer ne order kiya aur cheez khatam nikli? Bharosa toot jaata hai.\n\nAadat banao:\n• Roz subah stock dekho\n• Khatam cheez hatao ya chhupao\n• Wapas aaye to turant daalo\n\nComment mein batao, aap stock kaise yaad rakhte ho?",
-    "hashtags": "#GharDukaan #StockManagement #HomeBusiness #SellerTips #OnlineDukaan #SmallBusinessIndia",
+    "format": "skit",
+    "theme": "teal",
+    "yt_title": "Order aaya, par cheez khatam! Ye galti mat karo",
+    "caption": "Customer ne order kiya... aur cheez khatam nikli. 😬 Bharosa toot jaata hai.\n\nAadat banao:\n• Roz subah stock dekho\n• Khatam cheez dukaan se hatao\n• Wapas aaye to turant daalo\n\nComment mein batao, aap stock kaise yaad rakhte ho?",
+    "hashtags": "#GharDukaan #StockManagement #HomeBusiness #CustomerTrust #SmallBusinessIndia #SellerTips",
     "scenes": [
       {
-        "kind": "hook",
-        "vo": "ग्राहक ने ऑर्डर किया और चीज़ ख़त्म निकली, तो भरोसा टूट जाता है।",
-        "cap": "Customer ne order kiya aur cheez khatam nikli, to bharosa toot jaata hai.",
-        "big": [
-          "Order aaya, par",
-          "STOCK",
-          "khatam?"
-        ]
+        "kind": "chat",
+        "head": [
+          "Ye chat",
+          "pehchaani si lagi?"
+        ],
+        "who": "Customer",
+        "msgs": [
+          [
+            "c",
+            "Didi, 2 dabbe besan laddoo bhej do"
+          ],
+          [
+            "s",
+            "Sorry, laddoo toh kal hi khatam ho gaye"
+          ],
+          [
+            "c",
+            "Par dukaan mein to dikh rahe the!"
+          ]
+        ],
+        "vo": "ग्राहक ने ऑर्डर किया, और पता चला कि लड्डू तो कल ही खत्म हो गए। ग्राहक बोला, पर दुकान में तो दिख रहे थे!",
+        "cap": "Customer ne order kiya, aur laddoo kal hi khatam ho gaye the. Customer bola, par dukaan mein to dikh rahe the!"
       },
       {
         "kind": "list",
-        "vo": "रोज़ सुबह स्टॉक देखिए, ख़त्म चीज़ हटाइए, और वापस आए तो तुरंत डालिए।",
-        "cap": "Roz subah stock dekho, khatam cheez hatao, aur wapas aaye to turant daalo.",
         "head": [
           "Roz ki",
-          "aadat"
+          "stock aadat"
         ],
         "items": [
           [
             "1",
-            "Subah stock dekho"
+            "Roz subah stock dekho"
           ],
           [
             "2",
@@ -1733,176 +1744,145 @@
           ],
           [
             "3",
-            "Wapas aaye to daalo"
+            "Wapas aaye to turant daalo"
           ]
-        ]
+        ],
+        "vo": "रोज़ सुबह स्टॉक देखिए, खत्म चीज़ दुकान से हटाइए, और वापस आए तो तुरंत डालिए।",
+        "cap": "Roz subah stock dekho, khatam cheez dukaan se hatao, aur wapas aaye to turant daalo."
       },
       {
-        "kind": "vs",
-        "vo": "पुरानी लिस्ट से ग्राहक नाराज़ होता है, सही लिस्ट से दोबारा आता है।",
-        "cap": "Purani list se customer naraaz hota hai, sahi list se dobara aata hai.",
+        "kind": "chat",
         "head": [
-          "Fark",
-          "dekhiye"
+          "Ab customer",
+          "khush"
         ],
-        "rows": [
+        "who": "Customer",
+        "msgs": [
           [
-            "Purani list",
-            "Taaza list"
+            "c",
+            "Didi, 2 dabbe laddoo bhej do"
           ],
           [
-            "Sorry, khatam hai",
-            "Order pakka"
+            "s",
+            "Ji, aaj shaam tak pahunch jaayenge"
+          ],
+          [
+            "c",
+            "Waah! Agli baar bhi aapse hi lenge"
           ]
-        ]
+        ],
+        "vo": "सही स्टॉक से ग्राहक खुश होता है, और अगली बार भी आपसे ही खरीदता है।",
+        "cap": "Sahi stock se customer khush hota hai, aur agli baar bhi aapse hi kharidta hai."
       }
     ]
   },
   {
     "id": "voice-listing",
-    "theme": "night",
-    "yt_title": "Bol kar product daalo: Premium ka voice feature",
-    "caption": "Type karna mushkil lagta hai? Dukaan Premium mein bol kar product daal sakte ho.\n\n• Hindi, Hinglish ya English mein bolo\n• AI naam aur description bana deta hai\n• Aap check karke save karo\n\nPremium ₹199/month se. Save karo aur try karo!",
-    "hashtags": "#GharDukaan #VoiceToProduct #AIForBusiness #HomeBusiness #OnlineSelling #SmallBusinessIndia",
+    "format": "quiz",
+    "theme": "indigo",
+    "yt_title": "Quiz: Bol kar product kis plan mein daal sakte ho?",
+    "caption": "Quiz time! 🧠 Bol kar product kis plan mein daal sakte ho?\n\nA) Dukaan Pro\nB) Dukaan Premium\n\nJawab video mein hai! Premium mein Hindi, Hinglish ya English mein bolo, AI naam aur description bana deta hai, aap check karke save karo.\n\nAapka jawab kya tha? Comment karo!",
+    "hashtags": "#GharDukaan #Quiz #VoiceToProduct #HomeBusiness #SmallBusinessIndia #OnlineDukaan",
     "scenes": [
       {
-        "kind": "hook",
-        "vo": "टाइप करना मुश्किल लगता है? घरदुकान प्रीमियम में बोलकर प्रोडक्ट डाल सकते हैं।",
-        "cap": "Type karna mushkil lagta hai? GharDukaan Premium mein bol kar product daal sakte ho.",
-        "big": [
-          "Type nahi,",
-          "BOLO",
-          "aur product daalo"
-        ]
+        "kind": "quiz",
+        "q": "Bol kar product kis plan mein daal sakte ho?",
+        "opts": [
+          "Dukaan Pro",
+          "Dukaan Premium"
+        ],
+        "ans": 1,
+        "vo": "चलो एक क्विज़! बोलकर प्रोडक्ट किस प्लान में डाल सकते हैं? प्रो या प्रीमियम? तीन सेकंड में सोचिए!",
+        "cap": "Quiz! Bol kar product kis plan mein daal sakte ho? Pro ya Premium? 3 second mein socho!"
       },
       {
-        "kind": "list",
-        "vo": "हिंदी, हिंग्लिश या इंग्लिश में बोलिए, ए आई विवरण बनाएगा, आप जाँचकर सेव कीजिए।",
-        "cap": "Hindi, Hinglish ya English mein bolo, AI description banayega, aap check karke save karo.",
-        "head": [
-          "Kaise",
-          "kaam karta hai"
+        "kind": "quiz",
+        "reveal": true,
+        "q": "Bol kar product kis plan mein daal sakte ho?",
+        "opts": [
+          "Dukaan Pro",
+          "Dukaan Premium"
         ],
-        "items": [
-          [
-            "1",
-            "Apni bhasha mein bolo",
-            "Hindi, Hinglish, English"
-          ],
-          [
-            "2",
-            "AI likhega",
-            "Naam aur description"
-          ],
-          [
-            "3",
-            "Check karke save"
-          ]
-        ]
+        "ans": 1,
+        "why": "Hindi, Hinglish ya English mein bolo, AI description bana deta hai",
+        "vo": "सही जवाब, प्रीमियम! हिंदी, हिंग्लिश या इंग्लिश में बोलिए, और ए-आई नाम और डिस्क्रिप्शन बना देता है।",
+        "cap": "Sahi jawab, Premium! Hindi, Hinglish ya English mein bolo, AI naam aur description bana deta hai."
       },
       {
         "kind": "stat",
-        "vo": "ये फ़ीचर प्रीमियम प्लान में है, एक सौ निन्यानवे रुपये महीना।",
-        "cap": "Ye feature Premium plan mein hai, ₹199 mahina.",
         "head": [
-          "Dukaan",
-          "Premium"
+          "Dukaan Premium",
+          "har mahine"
         ],
         "stat": "₹199",
-        "sub": "har mahina",
-        "note": "Ya ₹1,999 saal ka"
+        "sub": "AI features ke saath",
+        "note": "Aap check karke save karte ho",
+        "vo": "प्रीमियम प्लान एक सौ निन्यानवे रुपये महीना। आप चेक करके सेव कीजिए।",
+        "cap": "Premium plan ₹199 mahina. Aap check karke save karo."
       }
     ]
   },
   {
-    "id": "tiffin-service",
-    "theme": "light",
-    "yt_title": "Ghar se tiffin service kaise shuru karein",
-    "caption": "Ghar ka khaana sabko chahiye: students, office jaane wale, bujurg.\n\nShuru kaise karein:\n• Chhota fixed menu\n• Weekly ya monthly plan\n• Delivery ka area aur time pakka\n\nTag karo us dost ko jiske haath ka khaana best hai!",
-    "hashtags": "#GharDukaan #TiffinService #HomeFood #HomeBusiness #BusinessIdeas #SmallBusinessIndia",
+    "id": "category-setup",
+    "format": "demo",
+    "theme": "marigold",
+    "yt_title": "Dukaan mein category kaise banayein (app demo)",
+    "caption": "Sab products ek saath? Customer ulajh jaata hai. 😵\n\nApp mein category banana bahut aasaan:\n• Products mein Categories tab kholo\n• Naam likho, Add Category dabao\n• Naya product daalte waqt category chuno\n\nPro mein 10 tak categories, Premium mein unlimited. Save karo!",
+    "hashtags": "#GharDukaan #OnlineDukaan #AppDemo #HomeBusiness #SmallBusinessIndia #SellerTips",
     "scenes": [
       {
-        "kind": "hook",
-        "vo": "घर का खाना सबको चाहिए। स्टूडेंट्स, ऑफ़िस वाले, और बुज़ुर्ग। टिफ़िन सर्विस शुरू कीजिए।",
-        "cap": "Ghar ka khaana sabko chahiye. Students, office waale, aur bujurg. Tiffin service shuru karo.",
-        "big": [
-          "Ghar se shuru",
-          "TIFFIN",
-          "service"
-        ]
+        "kind": "demo",
+        "clip": "t3c_categories_new_product",
+        "from": 0.5,
+        "head": [
+          "Category",
+          "banao"
+        ],
+        "steps": [
+          "Categories tab kholo",
+          "Naam likho",
+          "Add Category dabao"
+        ],
+        "vo": "सारे प्रोडक्ट एक साथ हों तो ग्राहक उलझ जाता है। कैटेगरी टैब खोलिए, नाम लिखिए, और ऐड कैटेगरी दबाइए।",
+        "cap": "Saare products ek saath hon to customer ulajh jaata hai. Categories tab kholo, naam likho, Add Category dabao."
       },
       {
-        "kind": "list",
-        "vo": "छोटा तय मेन्यू रखिए, हफ़्ते या महीने का प्लान बनाइए, और डिलीवरी का इलाक़ा तय कीजिए।",
-        "cap": "Chhota fixed menu rakho, hafte ya mahine ka plan banao, aur delivery ka ilaaka tay karo.",
+        "kind": "demo",
+        "clip": "t3c_categories_new_product",
+        "from": 9,
         "head": [
-          "Shuru",
-          "aise karo"
+          "Product ko",
+          "category do"
         ],
-        "items": [
-          [
-            "1",
-            "Chhota fixed menu"
-          ],
-          [
-            "2",
-            "Weekly ya monthly plan"
-          ],
-          [
-            "3",
-            "Delivery area aur time"
-          ]
-        ]
-      },
-      {
-        "kind": "list",
-        "vo": "हर प्लान को दुकान में प्रोडक्ट की तरह डालिए, ग्राहक व्हाट्सऐप पर ऑर्डर करेगा।",
-        "cap": "Har plan ko dukaan mein product ki tarah daalo, customer WhatsApp pe order karega.",
-        "head": [
-          "Dukaan",
-          "mein daalo"
+        "steps": [
+          "Naya product kholo",
+          "Category chuno"
         ],
-        "items": [
-          [
-            "1",
-            "Har plan ek product"
-          ],
-          [
-            "2",
-            "Saaf daam likho"
-          ],
-          [
-            "3",
-            "WhatsApp pe order"
-          ]
-        ]
+        "vo": "अब नया प्रोडक्ट डालते समय उसकी कैटेगरी चुनिए। प्रो में दस तक कैटेगरी, प्रीमियम में जितनी चाहें।",
+        "cap": "Naya product daalte waqt uski category chuno. Pro mein 10 tak categories, Premium mein jitni chahein."
       }
     ]
   },
   {
     "id": "instagram-reels-shop",
-    "theme": "night",
-    "yt_title": "Instagram Reels se apni dukaan tak customer laao",
-    "caption": "Reels se log aapki cheez dekhte hain, dukaan link se order karte hain.\n\nSimple Reel ideas:\n• Banate hue dikhao\n• Packing ka video\n• Customer ka review\n\nBio mein apna ghardukaan.shop link lagao. Save karo!",
-    "hashtags": "#GharDukaan #InstagramReels #ReelsForBusiness #HomeBusiness #OnlineSelling #SmallBusinessIndia",
+    "format": "myth",
+    "theme": "leaf",
+    "yt_title": "Reels ke liye mehnga camera chahiye? Myth ya Sach",
+    "caption": "Reels banane ke liye mehnga camera chahiye? Bilkul nahi! 📱\n\nPhone se hi banao:\n• Banate hue dikhao\n• Packing ka video\n• Customer ka review (unki permission se)\n\nBio mein apna ghardukaan.shop link lagao. Save karo!",
+    "hashtags": "#GharDukaan #InstagramReels #ReelsTips #HomeBusiness #SmallBusinessIndia #ApniDukaanApnePhoneSe",
     "scenes": [
       {
-        "kind": "hook",
-        "vo": "इंस्टाग्राम रील्स पर लोग आपकी चीज़ देखते हैं। दुकान के लिंक से ऑर्डर करते हैं।",
-        "cap": "Instagram Reels pe log aapki cheez dekhte hain. Dukaan ke link se order karte hain.",
-        "big": [
-          "Reels dekho,",
-          "ORDER",
-          "karo"
-        ]
+        "kind": "myth",
+        "myth": "Reels ke liye mehnga camera aur studio chahiye",
+        "fact": "Phone hi kaafi hai. Asli kaam dikhao, log judte hain.",
+        "vo": "बहुत लोग सोचते हैं, रील्स के लिए महंगा कैमरा चाहिए। गलत! आपका फ़ोन ही काफ़ी है, बस असली काम दिखाइए।",
+        "cap": "Reels ke liye mehnga camera chahiye? Galat! Aapka phone hi kaafi hai, bas asli kaam dikhao."
       },
       {
         "kind": "list",
-        "vo": "बनाते हुए दिखाइए, पैकिंग का वीडियो डालिए, और ग्राहक का रिव्यू शेयर कीजिए।",
-        "cap": "Banate hue dikhao, packing ka video daalo, aur customer ka review share karo.",
         "head": [
-          "3 aasaan",
-          "Reel ideas"
+          "Phone se",
+          "3 Reel ideas"
         ],
         "items": [
           [
@@ -1918,89 +1898,128 @@
             "Customer ka review",
             "Unki permission se"
           ]
-        ]
+        ],
+        "vo": "बनाते हुए दिखाइए, पैकिंग का वीडियो डालिए, और ग्राहक का रिव्यू शेयर कीजिए।",
+        "cap": "Banate hue dikhao, packing ka video daalo, aur customer ka review share karo."
       },
       {
         "kind": "list",
-        "vo": "बायो में अपनी दुकान का लिंक लगाइए, और हर रील में बोलिए, लिंक बायो में है।",
-        "cap": "Bio mein apni dukaan ka link lagao, aur har Reel mein bolo: link bio mein hai.",
         "head": [
-          "Link",
-          "mat bhoolo"
+          "Aur sabse",
+          "zaroori"
         ],
         "items": [
           [
             "1",
-            "Bio mein dukaan link"
+            "Bio mein dukaan ka link"
           ],
           [
             "2",
-            "Reel mein bolo",
-            "Link bio mein hai"
+            "Har Reel mein bolo: link bio mein"
           ]
-        ]
+        ],
+        "vo": "बायो में अपनी दुकान का लिंक लगाइए, और हर रील में बोलिए, लिंक बायो में है।",
+        "cap": "Bio mein apni dukaan ka link lagao, aur har Reel mein bolo: link bio mein hai."
       }
     ]
   },
   {
-    "id": "category-setup",
-    "theme": "light",
-    "yt_title": "Dukaan mein categories banao, customer jaldi dhoondhe",
-    "caption": "Sab products ek saath? Customer ulajh jaata hai.\n\nCategories se dukaan saaf dikhti hai:\n• Cheez ke type se baanto\n• Naam chhote aur saaf rakho\n• Sabse zyada bikne wali upar\n\nPro mein 10 tak categories, Premium mein unlimited. Share karo!",
-    "hashtags": "#GharDukaan #OnlineDukaan #HomeBusiness #SellerTips #OnlineSelling #SmallBusinessIndia",
+    "id": "tiffin-service",
+    "format": "quiz",
+    "theme": "night",
+    "yt_title": "Quiz: Tiffin service shuru karne se pehle kya tay karein?",
+    "caption": "Ghar se tiffin service shuru karni hai? Pehle ye quiz! 🍱\n\nSabse pehle kya tay karein?\nA) Bada sa menu\nB) Delivery ka area aur time\nC) Mehngi packing\n\nJawab video mein! Phir har plan ko dukaan mein product ki tarah daalo, customer WhatsApp pe order karega.\n\nTag karo us dost ko jiske haath ka khaana best hai!",
+    "hashtags": "#GharDukaan #TiffinService #HomeFood #HomeBusiness #SmallBusinessIndia #Quiz",
     "scenes": [
       {
-        "kind": "hook",
-        "vo": "सारे प्रोडक्ट एक साथ हों तो ग्राहक उलझ जाता है। कैटेगरी बनाइए।",
-        "cap": "Saare products ek saath hon to customer ulajh jaata hai. Categories banao.",
-        "big": [
-          "Customer ulajh gaya?",
-          "CATEGORY",
-          "banao"
-        ]
+        "kind": "quiz",
+        "q": "Tiffin service shuru karne se pehle sabse pehle kya tay karein?",
+        "opts": [
+          "Bada sa menu",
+          "Delivery ka area aur time",
+          "Mehngi packing"
+        ],
+        "ans": 1,
+        "vo": "टिफ़िन सर्विस शुरू करने से पहले सबसे पहले क्या तय करें? बड़ा मेन्यू, डिलीवरी का एरिया और टाइम, या महंगी पैकिंग?",
+        "cap": "Tiffin service se pehle sabse pehle kya tay karein? Bada menu, delivery ka area aur time, ya mehngi packing?"
+      },
+      {
+        "kind": "quiz",
+        "reveal": true,
+        "q": "Tiffin service shuru karne se pehle sabse pehle kya tay karein?",
+        "opts": [
+          "Bada sa menu",
+          "Delivery ka area aur time",
+          "Mehngi packing"
+        ],
+        "ans": 1,
+        "why": "Area aur time pakka ho, tabhi roz garam khaana time pe pahunchega",
+        "vo": "सही जवाब, डिलीवरी का एरिया और टाइम! ये पक्का हो, तभी रोज़ गरम खाना टाइम पर पहुँचेगा।",
+        "cap": "Sahi jawab: delivery ka area aur time! Ye pakka ho, tabhi roz garam khaana time pe pahunchega."
       },
       {
         "kind": "list",
-        "vo": "चीज़ के टाइप से बाँटिए, नाम छोटे रखिए, और सबसे ज़्यादा बिकने वाली ऊपर रखिए।",
-        "cap": "Cheez ke type se baanto, naam chhote rakho, aur sabse zyada bikne waali upar rakho.",
         "head": [
-          "Categories",
-          "aise banao"
+          "Phir",
+          "dukaan mein daalo"
         ],
         "items": [
           [
             "1",
-            "Type se baanto",
-            "Mithai, Namkeen, Achaar"
+            "Chhota fixed menu"
           ],
           [
             "2",
-            "Naam chhote rakho"
+            "Weekly ya monthly plan"
           ],
           [
             "3",
-            "Best seller upar"
+            "Order WhatsApp pe"
           ]
-        ]
+        ],
+        "vo": "छोटा फ़िक्स्ड मेन्यू रखिए, हफ़्ते या महीने का प्लान बनाइए, और ग्राहक व्हाट्सऐप पर ऑर्डर करेगा।",
+        "cap": "Chhota fixed menu rakho, weekly ya monthly plan banao, aur customer WhatsApp pe order karega."
+      }
+    ]
+  },
+  {
+    "id": "first-product-demo",
+    "format": "demo",
+    "theme": "teal",
+    "yt_title": "Pehla product kaise daalein (app demo)",
+    "caption": "Apni dukaan mein pehla product daalna hai? Dekho kitna aasaan hai! 📲\n\n• Photo lo ya gallery se chuno\n• Naam, daam aur stock likho\n• Size ya colour ho to options jodo\n\nSave karo aur aaj hi pehla product daalo!",
+    "hashtags": "#GharDukaan #AppDemo #OnlineDukaan #HomeBusiness #SmallBusinessIndia #ApniDukaanApnePhoneSe",
+    "scenes": [
+      {
+        "kind": "demo",
+        "clip": "t1b_add_first_product",
+        "from": 1,
+        "head": [
+          "Pehla product",
+          "daalo"
+        ],
+        "steps": [
+          "Photo lo ya chuno",
+          "Naam aur daam likho"
+        ],
+        "vo": "पहला प्रोडक्ट डालना बहुत आसान है। फ़ोटो लीजिए या गैलरी से चुनिए, फिर नाम और दाम लिखिए।",
+        "cap": "Pehla product daalna bahut aasaan. Photo lo ya gallery se chuno, phir naam aur daam likho."
       },
       {
-        "kind": "vs",
-        "vo": "प्रो प्लान में दस तक कैटेगरी, प्रीमियम में जितनी चाहें।",
-        "cap": "Pro plan mein 10 tak categories, Premium mein jitni chahein.",
+        "kind": "demo",
+        "clip": "t1b_add_first_product",
+        "from": 18,
         "head": [
-          "Kitni",
-          "categories"
+          "Size ya colour?",
+          "Options jodo"
         ],
-        "rows": [
-          [
-            "Dukaan Pro",
-            "10 tak"
-          ],
-          [
-            "Dukaan Premium",
-            "Unlimited"
-          ]
-        ]
+        "steps": [
+          "Option ka naam",
+          "Values likho",
+          "Save karo"
+        ],
+        "vo": "साइज़ या कलर हो, तो ऑप्शन जोड़िए, वैल्यू लिखिए, और सेव कीजिए।",
+        "cap": "Size ya colour ho, to options jodo, values likho, aur save karo."
       }
     ]
   }

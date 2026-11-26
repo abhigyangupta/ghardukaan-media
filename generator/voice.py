@@ -24,19 +24,22 @@ def _clean(s):
     for a, b in FIXES.items(): s = s.replace(a, b)
     return s
 
-def make_voiceover(lines, out_wav):
-    """Synthesize lines in order; returns marks [{start,end}] in seconds and total length."""
+def make_voiceover(lines, out_wav, pauses=None):
+    """Synthesize lines in order; returns marks [{start,end}] in seconds and total length.
+    pauses: optional extra silence (seconds) after each line, e.g. for a quiz countdown."""
+    pauses = pauses or [0] * len(lines)
     from kokoro_onnx import Kokoro
     k = Kokoro(os.path.join(CACHE, 'kokoro-v1.0.onnx'), os.path.join(CACHE, 'voices-v1.0.bin'))
     parts = [np.zeros(int(LEAD * SR), np.float32)]; t = LEAD; marks = []
-    for line in lines:
+    for li, line in enumerate(lines):
         s, _ = k.create(_clean(line), voice=VOICE, speed=SPEED, lang='hi')
         s = s.astype(np.float32); idx = np.where(np.abs(s) > 0.01)[0]
         s = s[max(0, idx[0] - 600): idx[-1] + 1500]
         # 8 ms fades avoid clicks at the cut points
         f = int(0.008 * SR); s[:f] *= np.linspace(0, 1, f); s[-f:] *= np.linspace(1, 0, f)
         marks.append({'start': round(t, 3), 'end': round(t + len(s) / SR, 3)})
-        parts += [s, np.zeros(int(GAP * SR), np.float32)]; t += len(s) / SR + GAP
+        g = GAP + pauses[li]
+        parts += [s, np.zeros(int(g * SR), np.float32)]; t += len(s) / SR + g
     raw = tempfile.mktemp(suffix='.wav'); sf.write(raw, np.concatenate(parts), SR)
     subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', raw, '-af', POLISH, '-ac', '1', out_wav], check=True)
     os.remove(raw)
