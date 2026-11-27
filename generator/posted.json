@@ -254,5 +254,16 @@
    "youtube": "6b08f738e94385a8fd6c702f"
   },
   "slot": "am"
+ },
+ {
+  "id": "stock-update",
+  "date": "2026-11-27",
+  "posts": {
+   "instagram": "6b09739ce94385a8fda16ae2",
+   "facebook": "6b09739de94385a8fda16b3a",
+   "youtube": "6b09739e776ce21276159eba",
+   "status": "scheduled"
+  },
+  "slot": "pm"
  }
 ]
