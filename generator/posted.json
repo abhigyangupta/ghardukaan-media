@@ -265,5 +265,15 @@
    "status": "scheduled"
   },
   "slot": "pm"
+ },
+ {
+  "id": "product-names",
+  "date": "2026-11-28",
+  "posts": {
+   "instagram": "6b0a485e70e80ae8f1cad7fe",
+   "facebook": "6b0a486deada83daa6bf0cee",
+   "youtube": "6b0a487d41454797eae7dee3"
+  },
+  "slot": "am"
  }
 ]
